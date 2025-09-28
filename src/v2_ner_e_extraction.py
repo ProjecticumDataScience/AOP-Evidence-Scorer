@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 The script runs a "classic" NER for two types of entities — CHEMICAL and SPECIES — on texts from articles, listed in Excel (Paper column).
 It loads pre-trained biomedical models from spaCy,
