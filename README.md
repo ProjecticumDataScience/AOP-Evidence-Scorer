@@ -1,7 +1,7 @@
 
-# AOP-main
+# Adverse Outcome Pathways
 
-This repository focuses on **entity extraction** and **biological plausibility evaluation** from scientific articles related to Adverse Outcome Pathways (AOP).  
+This repository focuses on entity extraction and biological plausibility evaluation from scientific articles related to Adverse Outcome Pathways (AOP).  
 It processes curated data about Key Event Relationships (KERs), extracts relevant biological entities, and evaluates mechanistic plausibility.
 
 ---
