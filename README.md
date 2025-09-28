@@ -4,6 +4,15 @@
 This repository focuses on entity extraction and biological plausibility evaluation from scientific articles related to Adverse Outcome Pathways (AOP).  
 It processes curated data about Key Event Relationships (KERs), extracts relevant biological entities, and evaluates mechanistic plausibility.
 
+### Weight of Evidence (WoE)
+
+The project also performs **Weight of Evidence (WoE) analysis** for each KER,
+ summarizing and scoring the strength of the evidence (high / moderate / low) based on reproducibility, 
+consistency, and relevance of the supporting data.
+In practical terms:
+For each connection (Key Event Relationship, KER), publications, experiments, and observations are gathered.
+The quality of this data is assessed: how representative, consistent, and reproducible it is.
+A confidence level is assigned (high / moderate / low).
 ---
 
 ##  Table of Contents
