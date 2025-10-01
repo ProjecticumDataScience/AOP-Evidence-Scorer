@@ -112,4 +112,20 @@ For example:
 }
 ```	
 
+### Step 3. Applying Weight of Evidence 
 
+
+Applying Weight of Evidence (WoE) based on the created dataset to quantitatively demonstrate how plausible the causal relationship KE1 → KE2 is from a biological perspective, and to compare the strength of different KERs within AOP.
+Example
+
+- KER "de novo lipogenesis → triglyceride accumulation":
+
+is supported by dozens of articles, in various forms (rat, mouse, human), with different stressors (alcohol, BPA, high-fat diet), and at different levels (transcriptional, functional).
+
+The BPscore will be high.
+
+- KER "mitochondrial swelling → liver fibrosis":
+
+is supported by 1 article, only in vitro, and only in mice.
+
+The BPscore will be low.
