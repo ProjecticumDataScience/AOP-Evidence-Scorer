@@ -96,5 +96,20 @@ which describe cause–effect relationships.
 }
 
 ```
+### Step 2. Extracting metadata(stressor, chemical) with classic NER  approach
+
+
+After training the model, it can identify cause-and-effect relationships in the context of liver steatosis.
+To extract "Chemical" from the context, we use a classic NER  approach (scispacy, the biomedical model BC4CHEMD).
+Next, we classify this chemical using existing databases ("Stressor": "food supplement").
+For example: 
+
+
+ ```json
+{	
+	"Chemical": "fructose",
+	"Stressor": "food supplement"
+}
+```	
 
 
