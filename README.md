@@ -59,8 +59,42 @@ Source code for the entity extraction pipeline:
 
 ## Workflow
 
-In the first stage, we take the appendices to the article of Anouk Verhoeven
- that contain a cause (for example: "liver_triglyceride_accumulation"), an effect (like "steatosis"), 
- and a correlation (such as: positive correlation). 
+### Step 1. Extracting causal relationships
+
+
+In the first stage, we use the appendices of the article by  Anouk Verhoeven,  
+which describe cause–effect relationships.
+
+
+
+ 
+ - **Cause (`up_stream`)**: `liver_triglyceride_accumulation` — accumulation of triglycerides in the liver  
+- **Effect (`down_stream`)**: `steatosis` — development of fatty liver disease (hepatic steatosis)  
+- **Correlation (`correlation`)**: `positive correlation` — a positive relationship, meaning that the more triglycerides accumulate, the higher the likelihood of steatosis 
+
  From this data, we prepare a training set for the model using tensors (deep learning). 
  After that, we train the model to find causal relationships in the context of steatosis in new publications/research.
+ 
+ link for the article:
+ 
+ [link for the article:](https://www.sciencedirect.com/science/article/abs/pii/S0300483X24000957)
+ 
+ 
+ ###  After training the model, we get the results for new articles like this:
+ 
+ ```json
+{
+  "PMID": 29704577,
+  "KE_upstream": "nuclear_receptor_changes_pparg",
+  "KE_downstream": "liver_triglyceride_accumulation",
+  "Stressor": "food supplement",
+  "Chemical": "fructose",
+  "Species": "mouse",
+  "Test_system": "in vitro",
+  "Correlation": "positive correlation",
+  "text": "Rats were fed a high-fructose diet (20% fructose) which induced \nhepatic triglyceride accumulation. Exposure to 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) also caused liver injury."
+}
+
+```
+
+
