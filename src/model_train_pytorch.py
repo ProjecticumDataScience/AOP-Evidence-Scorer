@@ -5,12 +5,12 @@ from transformers import AutoTokenizer, AutoModel
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
-# ====================
-# Загружаем данные
-# ====================
-df = pd.read_json("data_input/dataset.json")  # твой JSON с text
+# DATA LOADING & PREPROCESSING
+# Goal: read the dataset and encode categorical targets into integers.
 
-# Кодируем нужные поля
+df = pd.read_json("data_input/dataset.json")  # your JSON with "text" and labels
+
+# Encode required fields
 enc_up = LabelEncoder().fit(df["KE_upstream"])
 enc_down = LabelEncoder().fit(df["KE_downstream"])
 enc_corr = LabelEncoder().fit(df["Correlation"])
@@ -23,7 +23,7 @@ df["y_corr"] = enc_corr.transform(df["Correlation"])
 df["y_species"] = enc_species.transform(df["Species"])
 df["y_system"]  = enc_system.transform(df["Test_system"])
 
-# сохраняем энкодеры
+# Persist encoders to reuse at inference time
 os.makedirs("models", exist_ok=True)
 pickle.dump(enc_up, open("models/enc_up.pkl","wb"))
 pickle.dump(enc_down, open("models/enc_down.pkl","wb"))
@@ -31,20 +31,38 @@ pickle.dump(enc_corr, open("models/enc_corr.pkl","wb"))
 pickle.dump(enc_species, open("models/enc_species.pkl","wb"))
 pickle.dump(enc_system, open("models/enc_system.pkl","wb"))
 
-# ====================
-# Dataset
-# ====================
+
+# TOKENIZER SETUP
+# Goal: prepare the tokenizer from the chosen transformer model.
+
 MODEL_NAME = "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
+
+# DATASET DEFINITION
+# Goal: wrap the dataframe into a PyTorch Dataset that tokenizes text and returns labels.
+
+
 class KEDataset(Dataset):
     def __init__(self, df, max_len=256):
+        # Inside function: store dataframe and configs.
         self.df = df
         self.max_len = max_len
-    def __len__(self): return len(self.df)
+
+    def __len__(self):
+        # Inside function: return dataset size.
+        return len(self.df)
+
     def __getitem__(self, i):
+        # Inside function: tokenize text and return tensors for inputs and labels.
         r = self.df.iloc[i]
-        x = tokenizer(r["text"], truncation=True, padding="max_length", max_length=self.max_len, return_tensors="pt")
+        x = tokenizer(
+            r["text"],
+            truncation=True,
+            padding="max_length",
+            max_length=self.max_len,
+            return_tensors="pt"
+        )
         return {
             "input_ids": x["input_ids"].squeeze(0),
             "attention_mask": x["attention_mask"].squeeze(0),
@@ -55,23 +73,28 @@ class KEDataset(Dataset):
             "y_system": torch.tensor(r["y_system"])
         }
 
-# ====================
-# Model
-# ====================
+
+# MODEL DEFINITION
+# Goal: build a multitask classifier on top of PubMedBERT [CLS] representation.
+
 class KEClassifier(nn.Module):
     def __init__(self, name, nu, nd, nc, ns, nts, freeze=True):
+        # Inside function: initialize encoder and task-specific heads.
         super().__init__()
         self.bert = AutoModel.from_pretrained(name)
         if freeze:
-            for p in self.bert.parameters(): p.requires_grad=False
+            for p in self.bert.parameters():
+                p.requires_grad = False
         h = self.bert.config.hidden_size
-        self.up = nn.Linear(h,nu)
-        self.down = nn.Linear(h,nd)
-        self.corr = nn.Linear(h,nc)
-        self.species = nn.Linear(h,ns)
-        self.system = nn.Linear(h,nts)
+        self.up = nn.Linear(h, nu)
+        self.down = nn.Linear(h, nd)
+        self.corr = nn.Linear(h, nc)
+        self.species = nn.Linear(h, ns)
+        self.system = nn.Linear(h, nts)
+
     def forward(self, ids, mask):
-        o = self.bert(input_ids=ids, attention_mask=mask).last_hidden_state[:,0,:]
+        # Inside function: get [CLS] embedding and compute logits for each task.
+        o = self.bert(input_ids=ids, attention_mask=mask).last_hidden_state[:, 0, :]
         return {
             "up": self.up(o),
             "down": self.down(o),
@@ -80,9 +103,10 @@ class KEClassifier(nn.Module):
             "system": self.system(o)
         }
 
-# ====================
-# Обучение
-# ====================
+
+# TRAINING PREP
+# Goal: create dataloader, instantiate the model, and set the optimizer/hyperparameters.
+
 device = "cpu"
 dataset = KEDataset(df)
 loader = DataLoader(dataset, batch_size=4, shuffle=True)
@@ -96,10 +120,15 @@ model = KEClassifier(
 opt = torch.optim.Adam(model.parameters(), lr=1e-5)
 EPOCHS = 3
 
+
+# TRAINING LOOP
+# Goal: train the model with a summed cross-entropy loss across tasks and report progress.
+
 for epoch in range(EPOCHS):
     t0 = time.time()
-    total_loss = 0
-    for i,b in enumerate(loader):
+    total_loss = 0.0
+    for i, b in enumerate(loader):
+        # Inside loop: forward, compute multitask loss, backprop, optimizer step.
         opt.zero_grad()
         out = model(b["input_ids"], b["attention_mask"])
         loss = (
@@ -109,19 +138,25 @@ for epoch in range(EPOCHS):
             F.cross_entropy(out["species"], b["y_species"]) +
             F.cross_entropy(out["system"], b["y_system"])
         )
-        loss.backward(); opt.step()
+        loss.backward()
+        opt.step()
         total_loss += loss.item()
 
-        if (i+1) % 50 == 0:
+        if (i + 1) % 50 == 0:
             elapsed = time.time() - t0
-            iters_left = len(loader) - (i+1)
-            eta = elapsed / (i+1) * iters_left
-            print(f"Epoch {epoch+1}/{EPOCHS}, Step {i+1}/{len(loader)}, Loss={loss.item():.4f}, ETA {eta/60:.1f} min")
+            iters_left = len(loader) - (i + 1)
+            eta = elapsed / (i + 1) * iters_left
+            print(
+                f"Epoch {epoch+1}/{EPOCHS} | Step {i+1}/{len(loader)} | "
+                f"Loss={loss.item():.4f} | ETA ~ {eta/60:.1f} min"
+            )
 
-    print(f"Epoch {epoch+1} done. Avg loss={total_loss/len(loader):.4f}")
+    print(f"Epoch {epoch+1} complete. Average loss = {total_loss/len(loader):.4f}")
 
-# ====================
-# Сохраняем модель
-# ====================
-torch.save(model.state_dict(),"models/pubmedbert_cpu_clean.pt")
-print("✅ Модель и энкодеры сохранены в папку models/")
+
+# SAVE ARTIFACTS
+# Goal: persist the trained model weights and previously saved encoders.
+
+torch.save(model.state_dict(), "2models/pubmedbert_cpu_clean.pt")
+print("Model and encoders have been saved to the '2models/' directory.")
+
