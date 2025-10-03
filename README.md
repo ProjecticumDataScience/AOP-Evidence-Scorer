@@ -2,7 +2,7 @@
 # Adverse Outcome Pathways
 
 This project uses deep learning (ML) to predict toxic effects in biology. 
-The starting point of this project is the research by Anouk Verhoeven (Marc Teunes):
+The starting point of this project is the research by Anouk Verhoeven:
 "A quantitative weight-of-evidence method for confidence assessment of 
 adverse outcome pathway networks: A case study on chemical-induced 
 liver steatosis ".
@@ -89,7 +89,7 @@ which describe cause–effect relationships.
   "KE_downstream": "liver_triglyceride_accumulation",
   "Stressor": "food supplement",
   "Chemical": "fructose",
-  "Species": "mouse",
+  "Species": "rat",
   "Test_system": "in vitro",
   "Correlation": "positive correlation",
   "text": "Rats were fed a high-fructose diet (20% fructose) which induced \nhepatic triglyceride accumulation. Exposure to 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) also caused liver injury."
@@ -101,7 +101,7 @@ which describe cause–effect relationships.
 
 After training the model, it can identify cause-and-effect relationships in the context of liver steatosis.
 To extract "Chemical" from the context, we use a classic NER  approach (scispacy, the biomedical model BC4CHEMD).
-Next, we classify this chemical using existing databases ("Stressor": "food supplement").
+Next, we classify this chemical using existing databases ChEBI.
 For example: 
 
 
