@@ -19,8 +19,13 @@ extracts relevant biological entities, and evaluates mechanistic plausibility.
 - [Repository Structure](#repository-structure) 
 - [Folders](#folders)
 - [Workflow](#workflow)
+- [Results](#Results)
+- [Referenceces](#Referenceces)
+- [Installation](#Installation)
 
 ---
+
+
 
 ## Overview
 
@@ -129,3 +134,10 @@ The BPscore will be high.
 is supported by 1 article, only in vitro, and only in mice.
 
 The BPscore will be low.
+
+
+## Results
+
+## Referenceces
+
+## Installation
