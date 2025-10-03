@@ -4,7 +4,7 @@ This script teaches the model to identify causal relationships based on a given 
 nuclear_receptor_changes_pparg->de_novo_lipogenesis_fa_synthesis
 
 We put labeled data 
--[E1]de_novo_lipogenesis_fa_synthesis[/E1] 
+- [E1]de_novo_lipogenesis_fa_synthesis[/E1] 
 - [E2]liver_triglyceride_accumulation[/E2]
   and correlation 
  - "label": 1
