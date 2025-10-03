@@ -87,6 +87,23 @@ which describe cause–effect relationships.
  
  ###  After training the model, we get the results for new articles like this:
  
+  ```json
+ 
+ liver_triglyceride_accumulation → steatosis | positive correlation
+ 
+ 
+```
+
+
+### Step 2. Extracting metadata(stressor, chemical) with classic NER  approach
+
+
+After training the model, it can identify cause-and-effect relationships in the context of liver steatosis.
+To extract "Chemical" from the context, we use a classic NER  approach (scispacy, the biomedical model BC4CHEMD).
+Next, we classify this chemical using existing databases ChEBI.
+After extracting metadata we expect the output like this: 
+
+
  ```json
 {
   "PMID": 29704577,
@@ -101,21 +118,6 @@ which describe cause–effect relationships.
 }
 
 ```
-### Step 2. Extracting metadata(stressor, chemical) with classic NER  approach
-
-
-After training the model, it can identify cause-and-effect relationships in the context of liver steatosis.
-To extract "Chemical" from the context, we use a classic NER  approach (scispacy, the biomedical model BC4CHEMD).
-Next, we classify this chemical using existing databases ChEBI.
-For example: 
-
-
- ```json
-{	
-	"Chemical": "fructose",
-	"Stressor": "food supplement"
-}
-```	
 
 ### Step 3. Applying Weight of Evidence 
 
