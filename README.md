@@ -87,7 +87,7 @@ which describe cause–effect relationships.
  
  ###  After training the model, we get the results for new articles like this:
  
-  ```json
+```json
  
  liver_triglyceride_accumulation → steatosis | positive correlation
  
