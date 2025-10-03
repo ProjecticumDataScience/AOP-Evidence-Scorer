@@ -13,3 +13,8 @@ and then we save it in the endocerns.
 - pickle.dump(enc_down, open("models/enc_down.pkl","wb"))
 
 
+We get one big model in .pt format in the "models" folder, 
+along with several smaller endocores (upstream, downstream, context)
+
+The .pt extension is  used format for saving PyTorch models,model's
+weights and architectures (learned parameters as tensors)

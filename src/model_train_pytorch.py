@@ -25,11 +25,11 @@ df["y_system"]  = enc_system.transform(df["Test_system"])
 
 # Persist encoders to reuse at inference time
 os.makedirs("models", exist_ok=True)
-pickle.dump(enc_up, open("models/enc_up.pkl","wb"))
-pickle.dump(enc_down, open("models/enc_down.pkl","wb"))
-pickle.dump(enc_corr, open("models/enc_corr.pkl","wb"))
-pickle.dump(enc_species, open("models/enc_species.pkl","wb"))
-pickle.dump(enc_system, open("models/enc_system.pkl","wb"))
+pickle.dump(enc_up, open("2models/enc_up.pkl","wb"))
+pickle.dump(enc_down, open("2models/enc_down.pkl","wb"))
+pickle.dump(enc_corr, open("2models/enc_corr.pkl","wb"))
+pickle.dump(enc_species, open("2models/enc_species.pkl","wb"))
+pickle.dump(enc_system, open("2models/enc_system.pkl","wb"))
 
 
 # TOKENIZER SETUP
