@@ -44,8 +44,8 @@ except Exception as e:
 # =========================
 # Config / paths
 # =========================
-DICT_PATH = Path(os.getenv("GENE_DICT_TSV", r"R:\gene_info\gene_dict.tsv")).resolve()
-
+#DICT_PATH = Path(os.getenv("GENE_DICT_TSV", r"R:\gene_info\gene_dict.tsv")).resolve()
+DICT_PATH = Path(os.getenv("GENE_DICT_TSV", "data_input/gene_info/gene_dict.tsv")).resolve()
 # =========================
 # Normalization
 # =========================
