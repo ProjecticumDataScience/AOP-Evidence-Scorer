@@ -2,10 +2,6 @@
 # Adverse Outcome Pathways
 
 This project uses deep learning (ML) to predict toxic effects in biology. 
-The starting point of this project is the research by Anouk Verhoeven:
-"A quantitative weight-of-evidence method for confidence assessment of 
-adverse outcome pathway networks: A case study on chemical-induced 
-liver steatosis ".
 It focuses on entity extraction and biological plausibility evaluation from scientific articles related 
 to Adverse Outcome Pathways (AOP).  
 It processes curated data about Key Event Relationships (KERs), 
@@ -138,5 +134,10 @@ The BPscore will be low.
 ## Results
 
 ## Referenceces
+The starting point of this project is the research by Anouk Verhoeven:
+"A quantitative weight-of-evidence method for confidence assessment of 
+adverse outcome pathway networks: A case study on chemical-induced 
+liver steatosis ". *
+* https://www.sciencedirect.com/science/article/pii/S1532046423001867
 
 ## Installation
