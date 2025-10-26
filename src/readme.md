@@ -1,5 +1,7 @@
 ## NER extraction
 
+###  Gene pipline 
+
 this module reads a biomedical sentence and turns it into structured “agent → effect → gene” triples. 
 The agent is typically a chemical/drug/diet, the effect is a direction (increase/decrease), and the gene is a human gene normalized to its official symbol. 
 The goal is to mine literature and produce edges you can drop into a knowledge graph or downstream analysis.
@@ -8,7 +10,7 @@ Pipeline:
 
 Text normalization -> Loads a  gene alias dictionary -> Finds the agent  the caus (en_ner_bc5cdr_md). ->Finds genes in the sentence->Infers directions->Builds triples
 
-Example:  "High uric acid  --increase-->  MAPK8"
+-Example:  "High uric acid  --increase-->  MAPK8"
 
 ## model_train_pytorch
 ###  This script teaches the model to identify causal relationships based on a given dataset. 
