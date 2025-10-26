@@ -8,7 +8,7 @@ The goal is to mine literature and produce edges you can drop into a knowledge g
 
 Pipeline:
 
-Text normalization -> Loads a  gene alias dictionary -> Finds the agent  the caus (en_ner_bc5cdr_md). ->Finds genes in the sentence->Infers directions->Builds triples
+Text normalization -> Loads a  gene alias dictionary -> Finds the agent=the cause  ( en_ner_bc5cdr_md). ->Finds genes in the sentence->Infers directions->Builds triples
 
 - Example:  "High uric acid  --increase-->  MAPK8"
 
@@ -17,7 +17,7 @@ Text normalization -> Loads a  gene alias dictionary -> Finds the agent  the cau
 This script teaches the model to identify causal relationships based on a given dataset.
 We trained our model on data extracted from the study Optimization of an Adverse Outcome Pathway Network on Chemical-Induced Cholestasis Using an Artificial Intelligence–Assisted 
 Data Collection and Confidence Level Quantification Approach, using the paper’s appendices/supplementary tables as the primary  source *
-* https://www.sciencedirect.com/science/article/pii/S1532046423001867
+*  https://www.sciencedirect.com/science/article/pii/S1532046423001867
 
 
 We put labeled data 

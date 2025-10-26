@@ -4,7 +4,33 @@ It loads pre-trained biomedical models from spaCy,
 extracts entities from the column with agent responses,
 compiles the results (including coordinates and the context sentence),
 prints summary statistics, and
-saves the results in a CSV file.
+saves the results in a CSV file
+
+What it does (pipeline)
+
+Text normalization.
+Cleans Unicode/zero-width chars, normalizes dashes, expands Greek letters (“β”→“beta”), fixes common biomedical patterns (e.g., “X-induced” → “X induced”).
+ Separate lexical normalizer uppercases and simplifies tokens for dictionary lookup (e.g., XBP-1→XBP1, IRE1Α fix).
+ 
+ Loads a human gene alias dictionary.
+ Builds a fast alias→official map from a TSV (env GENE_DICT_TSV, default data_input/gene_info/gene_dict.tsv), filtering to TaxID 9606 (human).
+ This lets it recognize any synonym and normalize to the official symbol
+ 
+ Finds the agent (the cause).
+
+Uses many regex patterns to catch agent mentions, e.g. “treated with X”, “X induces…/upregulates…”, “by X”, “X-induced”, diet phrases, etc. 
+Some patterns are marked “strong” to rank higher. 
+It also trims junk like trailing “activity/signaling” and avoids mistaking ALL-CAPS gene symbols for agents by checking the gene dictionary.
+
+Fallbacks: if regex finds nothing, it first tries picking a gene token (as agent) from the dictionary; if still nothing, it runs SciSpaCy’s en_ner_bc5cdr_md CHEMICAL NER and picks a chemical. 
+Both fallbacks are guarded by simple filters.
+Finds genes in the sentence. Scans tokens, matches against the alias dictionary, records each mention’s official symbol and character span; ignores ambiguous short uppercase word
+Infers direction (increase/decrease).
+
+Rule phrases like “upregulated/reduced … including GENE1, GENE2 …” assign directions to specific genes. 
+
+Builds triples. For every gene mention with a determined direction, emits a record:
+{"agent": <agent>, "verb_dir": "increase"|"decrease", "target": <OFFICIAL>, "target_alias": <as seen>, "target_span": (start, end)}. The function returns {"agent": <agent>, "triplets": [ ... ]}
 """
 
 
@@ -304,6 +330,8 @@ def assign_gene_directions(text: str, mentions: List[Dict]) -> List[Dict]:
 # =========================
 _GERUNDS = {"promoting","increasing","decreasing","reducing","attenuating","alleviating","mitigating"}
 
+#  ==================   extract_agent(sentence) → picks the most plausible agent and how it was detected (regex/gene_dict/chem), plus span when available.
+
 def extract_agent(sent_text: str, *, verbose: bool = True) -> Dict[str, Optional[str]]:
     s = normalise_biomed(sent_text)
     if verbose:
@@ -405,6 +433,10 @@ def direction_from_label_or_context(lbl: Optional[str], text: str, span: Optiona
         L = max(0, span[0]-80); R = min(len(text), span[1]+80)
         return direction_from_lemmas(text[L:R])
     return direction_from_lemmas(text)
+
+
+# ==========================build_triplets(sentence, agent_block) → runs gene finding + direction logic and returns the final triples ===========
+
 
 def build_triplets(sentence: str, agent_block: Dict, *, verbose: bool = True) -> Dict:
     s = normalise_biomed(sentence)
