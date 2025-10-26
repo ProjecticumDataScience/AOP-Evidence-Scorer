@@ -1,17 +1,13 @@
 """
-The script runs a "classic" NER for two types of entities — CHEMICAL and SPECIES — on texts from articles, listed in Excel (Paper column).
+1.The script runs a "classic" NER for two types of entities — CHEMICAL and SPECIES — on texts from  93 prefiltered articles, listed in Excel (Paper column).
 It loads pre-trained biomedical models from spaCy,
 extracts entities from the column with agent responses,
 compiles the results (including coordinates and the context sentence),
 prints summary statistics, and
 saves the results in a CSV file
 
-What it does (pipeline)
+2.  Gene pipline.
 
-Text normalization.
-Cleans Unicode/zero-width chars, normalizes dashes, expands Greek letters (“β”→“beta”), fixes common biomedical patterns (e.g., “X-induced” → “X induced”).
- Separate lexical normalizer uppercases and simplifies tokens for dictionary lookup (e.g., XBP-1→XBP1, IRE1Α fix).
- 
  Loads a human gene alias dictionary.
  Builds a fast alias→official map from a TSV (env GENE_DICT_TSV, default data_input/gene_info/gene_dict.tsv), filtering to TaxID 9606 (human).
  This lets it recognize any synonym and normalize to the official symbol

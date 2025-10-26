@@ -5,12 +5,13 @@ input data
 
 This file contains  JSON array of records with experimental evidence on AOP relationships for fat metabolism in the liver. Each record corresponds to one 
 - KE_upstream → KE_downstream 
-pair with an annotation from a specific PubMed article  Supplementary material.
+
+- pair with an annotation from a specific PubMed article  Supplementary material.
 
 
 
 ``` csv
-* https://www.sciencedirect.com/science/article/pii/S1532046423001867
+ https://www.sciencedirect.com/science/article/pii/S1532046423001867
 ```
 
 ## Example input data
