@@ -1,16 +1,16 @@
 input data
 ================
 
-### entities_ner.csv
+### dataset.json
 
 This file contains  JSON array of records with experimental evidence on AOP relationships for fat metabolism in the liver. Each record corresponds to one 
 - KE_upstream → KE_downstream 
 pair with an annotation from a specific PubMed article  Supplementary material.
-* https://www.sciencedirect.com/science/article/pii/S1532046423001867
+
 
 
 ``` csv
-
+* https://www.sciencedirect.com/science/article/pii/S1532046423001867
 ```
 
 ## Example input data
@@ -102,3 +102,21 @@ This evidence supports a positive correlation between de novo lipogenesis and ox
 | Evidence snippet | Increased PPARα, ACOX1, SREBP-1, SCD-1; higher TG; oxidative stress; transaminases; NAFLD severity. |
 | Correlation snippet | Dose-dependent increases in lipid-synthesis genes with AS + HFD support the link to oxidative stress. |
 | Conclusion | Evidence supports a **positive** correlation between de novo lipogenesis and oxidative stress, aligning with the KER. |
+
+
+---
+---
+
+
+### Gene_dict.tsv
+
+
+
+Tabular dictionary of genes for normalizing mentions in the text (used by NER/mapping). Format: TSV (tab-separated), UTF-8, one line per gene.
+
+
+``` csv
+9606	10	NAT2	AAC2|NAT-2|NAT2|PNAT	N-acetyltransferase 2
+```
+
+
