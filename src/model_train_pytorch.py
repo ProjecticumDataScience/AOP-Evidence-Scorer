@@ -1,3 +1,41 @@
+"""
+Train a multitask text classifier (built on PubMedBERT) that reads a sentence and predicts five labels at once:
+upstream KE - downstream KE - correlation - species - test system. 
+
+The model uses the [CLS] embedding from PubMedBERT and five parallel linear heads.
+
+What each function/block is for
+
+- Data loading & encoding
+  - pd.read_json("data_input/dataset.json"): loads input  texts and target columns (We trained our model on data extracted from the study Optimization of an Adverse Outcome Pathway Network on Chemical-Induced Cholestasis Using an Artificial Intelligence–Assisted Data Collection and Confidence Level Quantification Approach, using the paper’s appendices/supplementary tables as the primary source*)
+  * https://www.sciencedirect.com/science/article/pii/S1532046423001867
+  - Five LabelEncoders (enc_up, enc_down, enc_corr, enc_species, enc_system) turn each categorical target into integer IDs; transformed columns are stored as y_up, y_down, y_corr, y_species, y_system.
+
+- Tokenizer setup
+  - AutoTokenizer.from_pretrained(MODEL_NAME): builds a tokenizer for BiomedNLP-PubMedBERT-base-uncased-abstract, used to convert text into input IDs and attention masks.
+
+- KEDataset (PyTorch Dataset)
+  - __len__: returns dataset size.
+  - __getitem__: tokenizes one sample (max_length=256) and returns tensors: input_ids, attention_mask, plus the five integer labels. This is what the DataLoader will batch.
+
+- KEClassifier (the model)
+  - __init__(name, nu, nd, nc, ns, nts, freeze=True): loads the PubMedBERT encoder; optionally freezes it (default True), then defines five linear “heads” with output sizes matching the number of classes for each task.
+  - forward(ids, mask): runs PubMedBERT, takes the [CLS] vector, and computes logits for each of the five tasks (up, down, corr, species, system). 
+
+- Training prep
+  - Creates a DataLoader (batch size 4), instantiates KEClassifier with class counts, and sets up Adam optimizer (lr=1e-5). With freeze=True, only the heads are trained. 
+
+- Training loop
+  - For each batch: forward pass → sum of five cross-entropy losses → backprop → optimizer step. Prints progress and an ETA every 50 steps; reports average epoch loss.
+
+- Saving artifacts
+  - torch.save(model.state_dict(), "2models/pubmedbert_cpu_clean.pt"): saves the trained weights; encoders were saved earlier as enc_*.pkl.
+
+
+"""
+
+
+
 import time, json, pickle, os
 import torch, torch.nn as nn, torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
