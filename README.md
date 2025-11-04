@@ -133,6 +133,9 @@ The BPscore will be low.
 
 ## Results
 
+executable notebook in cloud:
+https://colab.research.google.com/drive/19AB5pTdCl5gw-AEB-E8pWfciAyvIJfaz?usp=sharing
+ 
 ## Referenceces
 The starting point of this project is the research by Anouk Verhoeven:
 "A quantitative weight-of-evidence method for confidence assessment of 
