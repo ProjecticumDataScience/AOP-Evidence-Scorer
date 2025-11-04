@@ -133,7 +133,7 @@ The BPscore will be low.
 
 ## Results
 
-executable notebook in cloud:
+executable notebook  saved in cloud:
 https://colab.research.google.com/drive/19AB5pTdCl5gw-AEB-E8pWfciAyvIJfaz?usp=sharing
  
 ## Referenceces
@@ -144,3 +144,9 @@ liver steatosis ". *
 * https://www.sciencedirect.com/science/article/pii/S1532046423001867
 
 ## Installation
+
+to install:
+
+- Jupiter notebook, google colab
+-  any of Python 3.9–3.12
+-  
