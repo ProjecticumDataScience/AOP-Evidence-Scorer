@@ -133,7 +133,7 @@ The BPscore will be low.
 
 ## Results
 
-executable notebook  saved in cloud:
+executable  jupyter  notebook   in cloud:
 https://colab.research.google.com/drive/19AB5pTdCl5gw-AEB-E8pWfciAyvIJfaz?usp=sharing
  
 ## Referenceces
