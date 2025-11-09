@@ -133,8 +133,11 @@ The BPscore will be low.
 
 ## Results
 
-executable  jupyter  notebook   in cloud:
-https://colab.research.google.com/drive/19AB5pTdCl5gw-AEB-E8pWfciAyvIJfaz?usp=sharing
+via docker : 
+
+https://hub.docker.com/r/asava388/bio-nlp
+
+or : docker pull asava388/bio-nlp:0.1
  
 ## Referenceces
 The starting point of this project is the research by Anouk Verhoeven:
