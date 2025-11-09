@@ -152,4 +152,4 @@ to install:
 
 - Jupiter notebook, google colab
 -  any of Python 3.9–3.12
--  
+-  Docker HUB
