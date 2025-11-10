@@ -57,7 +57,7 @@ This file contains  JSON array of records with experimental evidence on AOP rela
 
 
 
-Tabular dictionary of genes for normalizing mentions in the text (used by NER/mapping). Format: TSV (tab-separated), UTF-8, one line per gene.
+Tabular dictionary of genes  (from NCBI database) for normalizing mentions in the text (used by NER/mapping). Format: TSV (tab-separated), UTF-8, one line per gene.
 
 
 ``` csv
