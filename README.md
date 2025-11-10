@@ -39,7 +39,7 @@ It leverages manually curated ground-truth data to validate the performance of a
 ## Repository Structure
 
 - **data_input/** – Input data for entity extraction: supplements to article https://www.sciencedirect.com/science/article/pii/S1532046423001867    *public acces
-- **data_output/** – Contains processed results (e.g., `entities_ner.csv`, `entities_ner.parquet`)  
+- **data_output/** – Contains processed results (e.g., `entities_ner.csv`)  
 - **src/** – Source code for entity extraction pipeline (`extract_entities_ner.py`)
 ## Folders
 
@@ -63,7 +63,7 @@ Source code for the entity extraction pipeline:
 ### Step 1. Extracting causal relationships
 
 
-In the first stage, we use the appendices of the article by  Anouk Verhoeven **public acces,  
+In the first stage, we use the appendices of the article by  Anouk Verhoeven   ** PUBLIC ACCESS,  
 which describe cause–effect relationships.
 
 
@@ -140,7 +140,7 @@ https://hub.docker.com/r/asava388/bio-nlp
 or : docker pull asava388/bio-nlp:0.1
  
 ## Referenceces
-The starting point of this project is the research by Anouk Verhoeven:
+The starting point of this project is the research by Anouk Verhoeven (PUBLIC ACCESS):
 "A quantitative weight-of-evidence method for confidence assessment of 
 adverse outcome pathway networks: A case study on chemical-induced 
 liver steatosis ". *

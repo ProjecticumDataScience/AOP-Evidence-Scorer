@@ -18,14 +18,14 @@ Pathways (AOP), such as:
 ``` csv
 Paper,entity,type,char_start,char_end,context_sentence
 
-/work/eval_papers/PMID_29173234.pdf,Mouse,SPECIES,496,501,"- **Species:** Mouse - **Species Snippet:** Male Balb/c mice fed with diets containing α-lactalbumin developed abdominal adiposity, insulin resistance, and moderate liver steatosis, with increased hepatic lipid content."
+PMID_29173234.pdf,Mouse,SPECIES,496,501,"- **Species:** Mouse - **Species Snippet:** Male Balb/c mice fed with diets containing α-lactalbumin developed abdominal adiposity, insulin resistance, and moderate liver steatosis, with increased hepatic lipid content."
 ```
 
 ## Explanation of fields
 
 | Column | Meaning |
 |:---|:---|
-| Paper | `/work/eval_papers/PMID_29173234.pdf` → the source document (PDF). |
+| Paper | `PMID_29173234.pdf` → the source document (PDF). |
 | entity | `Mouse` → the detected mention in text. |
 | type | `SPECIES` → NER label from the `en_ner_bionlp13cg_md` model. |
 | char_start | `496` → character offset where the entity begins. |
