@@ -50,7 +50,7 @@ Currently includes the Excel file described above, which provides the articles a
 ### `data_output/`
 Contains processed results after running the pipeline:
 - `entities_ner.csv` – Extracted entities in CSV format for quick inspection.
-- `entities_ner.parquet` – Same data in Parquet format for efficient processing.
+
 
 ### `src/`
 Source code for the entity extraction pipeline:
