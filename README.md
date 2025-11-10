@@ -38,7 +38,7 @@ It leverages manually curated ground-truth data to validate the performance of a
 
 ## Repository Structure
 
-- **data_input/** – Input data for entity extraction & evaluation (`Data_evaluatie_accuraatheid_agent_Daan_de_Jong_16-06-2025.csv`) 
+- **data_input/** – Input data for entity extraction: supplements to article https://www.sciencedirect.com/science/article/pii/S1532046423001867    *public acces
 - **data_output/** – Contains processed results (e.g., `entities_ner.csv`, `entities_ner.parquet`)  
 - **src/** – Source code for entity extraction pipeline (`extract_entities_ner.py`)
 ## Folders
@@ -63,7 +63,7 @@ Source code for the entity extraction pipeline:
 ### Step 1. Extracting causal relationships
 
 
-In the first stage, we use the appendices of the article by  Anouk Verhoeven,  
+In the first stage, we use the appendices of the article by  Anouk Verhoeven **public acces,  
 which describe cause–effect relationships.
 
 
