@@ -49,14 +49,17 @@ Pathways (AOP), such as:
 ``` csv
 Paper,entity,type,char_start,char_end,context_sentence
 
-PMID_29173234.pdf,SPECIES,496,501,"- **Species:** Homo Sapiens - **Species Snippet:** SIRT1 disruption in human fetal hepatocytes elevates intracellular glucose and lipids via increased lipogenesis/gluconeogenesis and reduced AKT/FOXO1 signaling."
+PMID_26890260.pdf,Homo sapiens,SPECIES,496,501,"- **Species:** Homo sapiens - **Species Snippet:** In human fetal hepatocytes, inhibition of SIRT1 increases intracellular glucose and lipid accumulation and activates de novo lipogenesis and gluconeogenesis."
+
 ```
 
 ## Explanation of fields
 
 | Column | Meaning |
 |:---|:---|
-| Paper | `PMID_29173234.pdf` → the source document (PDF). |
+
+| Paper  | `PMID_26890260.pdf` → the source document (PDF) for [PubMed:26890260](https://pubmed.ncbi.nlm.nih.gov/26890260/). |
+| species | `Homo sapiens` → the detected mention in text. |
 | entity | ` SIRT1 disruption ` → the detected mention in text. |
 | type | `Chemicals` → NER label from the `en_ner_bionlp13cg_md` model. |
 | char_start | `496` → character offset where the entity begins. |
