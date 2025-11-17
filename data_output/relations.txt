@@ -1,444 +1,629 @@
-pmid	chemical	trigger	polarity	gene
-25736031	Fructose	show	pos	insulin
-25736031	Fructose	induce	pos	insulin
-25736031	Citrulline	improve	pos	insulin
-25736031	Arginine	improve	pos	insulin
-26640164	Tetracycline	cause	pos	ER
-26640164	Tetracycline	cause	pos	tetracycline-induced
-26640164	Tetracycline	involve	pos	tetracycline-induced
-26640164	bicyclol	protect	neg	tetracycline-induced
-26640164	bicyclol	protect	neg	ER
-26640164	bicyclol	attenuate	neg	tetracycline-induced
-26640164	bicyclol	protect	neg	tetracycline-induced
-26640164	bicyclol	alleviate	neg	caspase-3
-26640164	bicyclol	alleviate	neg	XIAP
-26640164	bicyclol	increase	pos	XIAP
-26640164	bicyclol	protect	neg	tetracycline-induced
-26640164	bicyclol	protect	neg	ER
-26640164	bicyclol	associate	pos	ER
-27062444	Alcohol	result	pos	aspartate aminotransferase [
-27062444	Alcohol	lead	pos	fatty acid
-27062444	Alcohol	lead	pos	FATP1
-27062444	Alcohol	lead	pos	acetyl-CoA carboxylase
-27062444	Alcohol	lead	pos	fatty acid synthase
-27062444	Alcohol	lead	pos	FASN
-27062444	Alcohol	lead	pos	lipin1
-27062444	Alcohol	lead	pos	LIPIN1
-27062444	Alcohol	lead	pos	diacylglycerol acyltransferase 1
-27062444	Alcohol	lead	pos	DGAT1
-27062444	Alcohol	lead	pos	diacylglycerol acyltransferase 2
-27062444	Alcohol	include	pos	fatty acid
-27062444	Alcohol	include	pos	FATP1
-27062444	Alcohol	include	pos	acetyl-CoA carboxylase
-27062444	Alcohol	include	pos	fatty acid synthase
-27062444	Alcohol	include	pos	FASN
-27062444	Alcohol	include	pos	lipin1
-27062444	Alcohol	include	pos	LIPIN1
-27062444	Alcohol	include	pos	diacylglycerol acyltransferase 1
-27062444	Alcohol	include	pos	DGAT1
-27062444	Alcohol	include	pos	diacylglycerol acyltransferase 2
-27062444	lipid	include	pos	fatty acid
-27062444	lipid	include	pos	FATP1
-27062444	lipid	include	pos	acetyl-CoA carboxylase
-27062444	lipid	include	pos	fatty acid synthase
-27062444	lipid	include	pos	FASN
-27062444	lipid	include	pos	lipin1
-27062444	lipid	include	pos	LIPIN1
-27062444	lipid	include	pos	diacylglycerol acyltransferase 1
-27062444	lipid	include	pos	DGAT1
-27062444	lipid	include	pos	diacylglycerol acyltransferase 2
-27108203	PFOS	increase	pos	fatty acid
-27108203	PFOS	increase	pos	acox1
-27108203	PFOS	increase	pos	cpt1a
-27108203	PFOS	associate	pos	fatty acid
-27108203	PFOS	associate	pos	acox1
-27108203	PFOS	associate	pos	cpt1a
-27124661	GSH	assist	pos	ethanol-dependent
-27220557	Ethanol	stimulate	pos	fatty acid/lipid
-27220557	Ethanol	reduce	neg	fatty acid/lipid
-27614967	Ethanol	result	pos	TG
-27614967	ginsenosides	reduce	neg	TG
-27627966	triglyceride	activate	pos	alcohol-treated
-27692001	AcAc	decrease	neg	antioxidant enzymes superoxide dismutase
-27692001	AcAc	decrease	neg	TG
-27692001	AcAc	increase	pos	TG
-27692001	VLDL	increase	pos	TG
-27692001	VLDL	increase	pos	TG
-27837167	ligustrazine	attenuate	neg	erythroid-derived 2)-like 2
-27837167	ligustrazine	attenuate	neg	Nrf2
-27837167	ligustrazine	reveal	pos	erythroid-derived 2)-like 2
-27837167	ligustrazine	reveal	pos	Nrf2
-27837167	Ligustrazine	ameliorate	neg	peroxisome proliferator-activated receptor-alpha
-27837167	Ligustrazine	ameliorate	neg	Nrf2
-27837167	Ligustrazine	inhibit	neg	peroxisome proliferator-activated receptor-alpha
-27837167	Ligustrazine	inhibit	neg	Nrf2
-27837167	Ligustrazine	induce	pos	peroxisome proliferator-activated receptor-alpha
-27837167	Ligustrazine	induce	pos	Nrf2
-27837167	Ligustrazine	abrogate	neg	Nrf2
-27837167	Ligustrazine	weaken	neg	HIF-1α
-27837167	Ligustrazine	weaken	neg	Nrf2
-27837167	Ligustrazine	abrogate	neg	Nrf2
-27837167	alcohol	abrogate	neg	Nrf2
-28131861	ethanol	regulate	pos	nuclear factor-erythroid 2-related factor 2
-28131861	ethanol	regulate	pos	NRF2
-28131861	ethanol	regulate	pos	nuclear factor-erythroid 2-related factor 2
-28131861	ethanol	regulate	pos	NRF2
-28366540	VPA	enhance	pos	fatty acid
-28366540	VPA	enhance	pos	CD36
-28366540	VPA	enhance	pos	CD36-specific
-28366540	VPA	mediate	pos	CD36
-28366540	VPA	mediate	pos	CD36-specific
-28366540	VPA	abolish	neg	CD36-specific
-28366540	VPA	increase	pos	DGAT2
-28366540	VPA	increase	pos	mitogen-activated protein kinase kinase
-28366540	VPA	increase	pos	DGAT2
-28366540	VPA	regulate	pos	DGAT2
-28449683	Nicotinamide	identify	pos	NAD Hepatic
-28449683	Nicotinamide	involve	pos	NAD Hepatic
-28449683	FK866	promote	pos	HFD
-28449683	FK866	promote	pos	sterol regulatory
-28449683	FK866	promote	pos	element-binding protein 1
-28449683	FK866	promote	pos	SREBP1
-28449683	FK866	promote	pos	fatty acid synthase
-28449683	FK866	promote	pos	FASN
-28449683	FK866	accompany	pos	sterol regulatory
-28449683	FK866	accompany	pos	element-binding protein 1
-28449683	FK866	accompany	pos	SREBP1
-28449683	FK866	accompany	pos	fatty acid synthase
-28449683	FK866	accompany	pos	FASN
-28449683	Nicotinamide	demonstrate	pos	NAMPT
-28449683	Nicotinamide	demonstrate	pos	Sirt1-mediated
-28449683	NMN	demonstrate	pos	NAMPT
-28449683	NMN	demonstrate	pos	Sirt1-mediated
-28449683	Nicotinamide	suppress	neg	Sirt1-mediated
-28449683	NMN	suppress	neg	Sirt1-mediated
-28449683	oleic	suppress	neg	Sirt1-mediated
-28465000	aspartame	induce	pos	low-density lipoprotein
-28465000	aspartame	induce	pos	low-density lipoprotein
-28465000	aspartame	represent	pos	low-density lipoprotein
-28465000	aspartame	represent	pos	low-density lipoprotein
-28465000	aspartame	increase	pos	low-density lipoprotein
-28465000	aspartame	increase	pos	low-density lipoprotein
-28777337	Tunicamycin	induce	pos	ER
-28777337	Tunicamycin	induce	pos	aspartate transaminase
-28777337	Tunicamycin	increase	pos	aspartate transaminase
-28777337	tunicamycin	increase	pos	apolipoprotein B100
-28777337	tunicamycin	suppress	neg	apolipoprotein B100
-28803762	Apigenin	increase	pos	hepatic peroxisome proliferator-activated receptor alpha
-28803762	Apigenin	increase	pos	carnitine palmitoyltransferase-1
-28803762	Apigenin	increase	pos	protein-1c
-28803762	Apigenin	increase	pos	fatty acid synthase
-28803762	Apigenin	increase	pos	diacylglycerol acyltransferase proteins
-28803762	Apigenin	decrease	neg	protein-1c
-28803762	Apigenin	decrease	neg	fatty acid synthase
-28803762	Apigenin	decrease	neg	diacylglycerol acyltransferase proteins
-28962527	Ca2+	induce	pos	ER
-28962527	lipid	accompany	pos	ER
-28962527	lipid	accompany	pos	ER
-28962527	lipid	demonstrate	pos	ER
-28962527	amiodarone	increase	pos	Cidea
-28962527	amiodarone	increase	pos	Cidec
-28962527	amiodarone	increase	pos	ER
-28962527	lipid	accompany	pos	Cidec
-28962527	lipid	reduce	neg	Cidec
-28987868	ethanol	delete	neg	PTEN
-28987868	ethanol	delete	neg	phosphoinositide-dependent protein kinase 1
-28987868	ethanol	lead	pos	phosphoinositide-dependent protein kinase 1
-28987868	Ethanol	result	pos	CYP2E1
-28987868	Ethanol	increase	pos	CYP2E1
-28987868	Ethanol	inhibit	neg	CYP2E1
-28987868	malondialdehyde	inhibit	neg	CYP2E1
-28987868	MDA	inhibit	neg	CYP2E1
-28987868	4-hydroxynonenal	inhibit	neg	CYP2E1
-28987868	N-acetyl-L-cysteine	attenuate	neg	Akt
-28987868	N-acetyl-L-cysteine	attenuate	neg	Thr308
-28987868	NAC	attenuate	neg	Akt
-28987868	NAC	attenuate	neg	Thr308
-28987868	4-HNE	lead	pos	Akt
-28987868	4-HNE	lead	pos	Thr308
-29126901	DHA	inhibit	neg	T0901317-induced
-29169220	estrogen	increase	pos	SREBP-1
-29169220	lipid	induce	pos	fatty acids
-29169220	ROS	induce	pos	fatty acids
-29173234	carnitine palmitoyltransferase-1	lead	pos	fatty acid
-29173234	CPT-1	lead	pos	fatty acid
-29173234	carnitine palmitoyltransferase-1	reduce	neg	fatty acid
-29173234	CPT-1	reduce	neg	fatty acid
-29457836	ethanol	lead	pos	mTORC1
-29457836	ethanol	lead	pos	mTOR
-29457836	ethanol	lead	pos	S6K1
-29457836	ethanol	increase	pos	mTOR
-29457836	ethanol	increase	pos	S6K1
-29457836	rapamycin	alleviate	neg	fatty acid
-29457836	ethanol	lead	pos	SREBP-1
-29457836	ethanol	lead	pos	lipin 1
-29457836	ethanol	lead	pos	S6K1-dependent
-29526820	benzbromarone	promote	pos	fatty acids
-29597210	Palmitate	induce	pos	SREBP1c
-29597210	Palmitate	induce	pos	SCD1
-29597210	palmitate	stimulate	pos	caspase-3
-29597210	BO	attenuate	neg	AMPK-mediated
-29597210	BO	attenuate	neg	JNK
-29630881	galactose	impair	neg	fatty acid
-29675927	Tributyltin	function	pos	peroxisome proliferator activated receptor-γ
-29675927	TBT	function	pos	peroxisome proliferator activated receptor-γ
-29782848	alcohol	affect	pos	TFEB
-29782848	ethanol	increase	pos	mTOR
-29782848	ethanol	increase	pos	mTOR
-29782848	ethanol	result	pos	mTOR
-29782848	ethanol	increase	pos	mTOR
-29782848	ethanol	decrease	neg	TFEB
-29934713	exendin-4	prevent	neg	ER
-29934713	exendin-4	prevent	neg	lipin-1
-29934713	exendin-4	associate	pos	lipin-1
-29934713	exendin-4	associate	pos	lipin-1
-29934713	exendin-4	decrease	neg	lipin-1 nuclear
-29934713	exendin-4	increase	pos	lipin-1 nuclear
-29934713	exendin-4	increase	pos	lipin-1 nuclear
-29934713	exendin-4	improve	pos	ER
-29934713	exendin-4	improve	pos	lipin-1
-29934713	exendin-4	increase	pos	lipin-1
-29934713	exendin-4	mediate	pos	lipin-1
-29934713	VLDL	mediate	pos	lipin-1
-30248338	bile	include	pos	VDR
-30452912	doxorubicin	impede	neg	insulin
-30452912	doxorubicin	elevate	pos	insulin
-30452912	doxorubicin	lead	pos	insulin
-30452912	lipid	lead	pos	fatty liver
-30452912	Doxorubicin	impair	neg	fatty acid
-30452912	Doxorubicin	impair	neg	ATGL
-30452912	Doxorubicin	augment	pos	fatty acid
-30452912	Doxorubicin	augment	pos	ATGL
-30677459	efavirenz	activate	pos	PXR
-30677459	efavirenz	induce	pos	PXR
-30677459	efavirenz	activate	pos	PXR
-30677459	efavirenz	activate	pos	PXR
-30824780	BPA	elicit	pos	H-HepG2
-30880507	Metformin	inhibit	neg	fatty acid
-30880507	Metformin	inhibit	neg	AMPK
-30880507	Metformin	limit	neg	fatty acid
-30880507	Metformin	limit	neg	AMPK
-30880507	Metformin	activate	pos	AMPK
-30880507	metformin	modulate	pos	CB1
-30880507	metformin	modulate	pos	CB2
-30880507	metformin	affect	pos	CB1
-30880507	metformin	affect	pos	CB2
-30880507	metformin	affect	pos	CB1
-30880507	metformin	affect	pos	CB2
-30880507	metformin	act	pos	CB1
-30880507	metformin	act	pos	CB2
-30880507	metformin	act	pos	CB1
-30880507	metformin	act	pos	CB2
-30880507	lipid	act	pos	CB1
-30880507	lipid	act	pos	CB2
-30880507	metformin	interact	pos	CB1R
-30880507	metformin	inhibit	neg	CB1R
-31330194	dexamethasone	increase	pos	miR-15b-5p
-31330194	dexamethasone	increase	pos	PDK4
-31330194	dexamethasone	induce	pos	PDK4
-31330194	dexamethasone	mediate	pos	PDK4
-31463983	vitamin D	attenuate	neg	sterol-regulated element-binding protein (SREBP)-1c
-31463983	vitamin D	attenuate	neg	fatty acid synthase
-31463983	vitamin D	attenuate	neg	Fasn
-31463983	vitamin D	regulate	pos	fatty acid synthase
-31463983	vitamin D	regulate	pos	Fasn
-31463983	vitamin D	alleviate	neg	hepatic nuclear peroxisome proliferator-activated receptor
-31463983	vitamin D	alleviate	neg	Carnitine palmitoyltransferase (Cpt)-1α
-31463983	vitamin D	alleviate	neg	cytochrome P450
-31463983	vitamin D	alleviate	neg	Cyp4a14
-31463983	vitamin D	alleviate	neg	hepatic fatty acids
-31463983	Vitamin D	alleviate	neg	fatty acid
-31463983	Vitamin D	alleviate	neg	fatty acid
-31463983	Vitamin D	inhibit	neg	fatty acid
-31463983	Vitamin D	inhibit	neg	fatty acid
-31463983	Vitamin D	promote	pos	fatty acid
-31470036	BPA	increase	pos	SREBP-1c
-31470036	BPA	increase	pos	stearoyl-CoA desaturase 1
-31470036	low-dose	induce	pos	SREBP-2
-31470036	low-dose	decrease	neg	SREBP-2
-31473330	E2	upregulate	pos	TG
-31473330	ICI	inhibit	neg	MTP
-31473330	ICI	inhibit	neg	LPL
-31473330	ICI	inhibit	neg	LRP1
-31473330	ICI	inhibit	neg	CD36
-31473330	ICI	inhibit	neg	ACO1
-31473330	ICI	inhibit	neg	FAS
-31473330	VLDL	inhibit	neg	lipoprotein lipase
-31473330	VLDL	inhibit	neg	lipoprotein receptor-related
-31473330	VLDL	inhibit	neg	TG
-31473330	VLDL	promote	pos	TG
-31491605	MEHP	inhibit	neg	JAK2/STAT5
-31491605	MEHP	lead	pos	JAK2/STAT5
-31491605	MEHP	inhibit	neg	JAK2/STAT5
-31491605	lipid	inhibit	neg	JAK2/STAT5
-31682409	Cd	inhibit	neg	SIRT1
-31857090	Nicotine	result	pos	glycogen synthase
-31857090	Nicotine	reduce	neg	glycogen synthase
-31857090	nicotine	increase	pos	fatty acid
-31857090	nicotine	increase	pos	ADA
-31866205	lipotoxic	increase	pos	HPA
-31866205	lipotoxic	alleviate	neg	HPA
-31866205	lipotoxic	induce	pos	HPA
-32165129	Valproate	increase	pos	fatty acid
-32165129	Valproate	increase	pos	fatty acid
-32165129	Valproate	associate	pos	fatty acid
-32165129	Valproate	associate	pos	fatty acid
-32165129	Valproate	affect	pos	fatty acid
-32165129	triglyceride	affect	pos	fatty acid
-32165129	Valproate	decrease	neg	fatty acid binding protein 1
-32165129	Valproate	decrease	neg	FABP1
-32165129	Valproate	decrease	neg	fatty acids
-32165129	Valproate	increase	pos	fatty acids
-32165129	valproate	decrease	neg	ApoB100
-32165129	valproate	decrease	neg	low-density lipoprotein
-32165129	valproate	increase	pos	FABP1
-32165129	valproate	increase	pos	MTTP
-32165129	Valproate	cause	pos	fatty acids
-32165129	Valproate	increase	pos	fatty acids
-32410680	tetradecylthiopropionic acid	induce	pos	fatty liver
-32410680	tetradecylthiopropionic acid	decrease	neg	NAD
-32410680	tetradecylthiopropionic acid	increase	pos	NAD
-32410680	kynurenine	increase	pos	NAD
-32585865	DZA	cause	pos	fatty acid
-32585865	DZA	prevent	neg	fatty acid
-32585865	DZA	increase	pos	fatty acid
-32585865	DZA	involve	pos	fatty acid
-32593710	BPA	cause	pos	Srebf1
-32593710	BPA	cause	pos	Scd1
-32593710	BPA	cause	pos	Hspa5
-32593710	BPA	cause	pos	Hyou1
-32593710	BPA	cause	pos	Atf6
-32593710	BPA	increase	pos	Srebf1
-32593710	BPA	increase	pos	Scd1
-32593710	BPA	increase	pos	Hspa5
-32593710	BPA	increase	pos	Hyou1
-32593710	BPA	increase	pos	Atf6
-32593710	BPA	cause	pos	ER
-32593710	BPA	mediate	pos	ER
-33022571	lipid	include	pos	peroxisome proliferator-activated receptors
-33022571	lipid	include	pos	PPARs
-33022571	lipid	include	pos	liver X receptor β
-33022571	lipid	include	pos	retinoid X receptors
-33022571	lipid	include	pos	RXRs
-33105604	Linagliptin	improve	pos	fatty acid
-33105604	Linagliptin	alter	pos	fatty acid
-33105604	linagliptin	improve	pos	IGF1R
-33105604	linagliptin	improve	pos	DPP-4
-33105604	linagliptin	induce	pos	IGF1R
-33105604	linagliptin	induce	pos	DPP-4
-33105604	linagliptin	involve	pos	DPP-4
-33184849	conjugated linoleic acid	give	neg	fatty acid
-33184849	CLA	give	neg	fatty acid
-33184849	conjugated linoleic acid	induce	pos	fatty acid
-33184849	CLA	induce	pos	fatty acid
-33184849	conjugated linoleic acid	increase	pos	fatty acid
-33184849	CLA	increase	pos	fatty acid
-33184849	FA	include	pos	Acaca
-33184849	CLA	include	pos	Acaca
-33184849	GW6471	include	pos	Acaca
-33184849	GW6471	block	neg	Acaca
-33184849	GW6471	block	neg	histone
-33184849	GW6471	block	neg	H3K27ac
-33184849	GW6471	block	neg	H3K4me1
-33184849	GW6471	abolish	neg	histone
-33184849	GW6471	abolish	neg	H3K27ac
-33184849	GW6471	abolish	neg	H3K4me1
-33184849	Acads	abolish	neg	histone
-33184849	Acads	abolish	neg	H3K27ac
-33184849	Acads	abolish	neg	H3K4me1
-33302084	Lipid	enhance	pos	lipolysis-related
-33302084	Lipid	reduce	neg	lipolysis-related
-33449950	O-1	stimulate	pos	ATGL
-33449950	O-1	stimulate	pos	G0S2
-33449950	O-1	suppress	neg	G0S2
-33449950	Palmitate	reduce	neg	FoxO1
-33449950	Palmitate	reduce	neg	ATGL
-33449950	Palmitate	reduce	neg	identification-58
-33449950	Palmitate	reduce	neg	CGI-58
-33449950	Palmitate	reduce	neg	peroxisome proliferator-activated receptorγ
-33449950	Palmitate	reduce	neg	G0S2
-33449950	Palmitate	increase	pos	peroxisome proliferator-activated receptorγ
-33449950	Palmitate	increase	pos	G0S2
-33762794	triglyceride	abolish	neg	peroxisome proliferator-activated receptor gamma
-34128319	Rosiglitazone	exert	pos	FABP4
-34128319	Rosiglitazone	exacerbate	pos	FABP4
-34128319	I-9	decrease	neg	rosiglitazone-induced
-34128319	I-9	decrease	neg	FABP4
-34206460	clozapine	affect	pos	fatty liver
-34206460	clozapine	exhibit	pos	insulin
-34206460	clozapine	exhibit	pos	insulin
-34206460	clozapine	exhibit	pos	Akt
-34206460	clozapine	exhibit	pos	GLUT4
-34206460	clozapine	exhibit	pos	IL-1
-34246650	LC3-II/I	decrease	neg	SREBP-1c
-34246650	LC3-II/I	decrease	neg	oleic acid
-34246650	LC3-II/I	increase	pos	oleic acid
-34246650	LC3-II/I	decrease	neg	SREBP-1c
-34246650	lipid	provide	pos	CAV-1
-34344994	triacylglycerol	induce	pos	acyl-CoA
-34344994	cholesterol ester	induce	pos	acyl-CoA
-34681291	20-80	increase	pos	peroxisome proliferator-activated receptors
-34681291	20-80	increase	pos	fatty acid
-34681291	20-80	increase	pos	FATP) 2
-34681291	20-80	increase	pos	FATP5
-34681291	20-80	increase	pos	carnitine palmitoyltransferase 1
-34681291	lipid	alter	pos	lipid-metabolizing molecules
-34685712	alcohol	inhibit	neg	mTORC1
-34685712	rapamycin	inhibit	neg	mTORC1
-34685712	rapamycin	attenuate	neg	mTORC1
-34685712	rapamycin	attenuate	neg	ER
-34685712	rapamycin	attenuate	neg	LAMP2
-34685712	rapamycin	restore	pos	LAMP2
-34801933	dexamethasone	enhance	pos	FABPpm
-34801933	palmitate	enhance	pos	FABPpm
-34801933	dexamethasone	increase	pos	FABPpm
-34801933	palmitate	increase	pos	FABPpm
-34801933	lipid	increase	pos	FABPpm
-34801933	Dexamethasone	alter	pos	n-3 polyunsaturated fatty acid
-34801933	palmitate	alter	pos	n-3 polyunsaturated fatty acid
-34801933	Dexamethasone	result	pos	n-3 polyunsaturated fatty acid
-34801933	palmitate	result	pos	n-3 polyunsaturated fatty acid
-34801933	FA	result	pos	n-3 polyunsaturated fatty acid
-34836271	GEN	downregulate	neg	sterol-regulatory element-binding protein-1c
-34836271	GEN	downregulate	neg	SREBP-1c
-34836271	GEN	downregulate	neg	fatty acid synthase
-34836271	GEN	downregulate	neg	FASN
-34836271	GEN	downregulate	neg	stearoyl-coenzyme A desaturase 1
-34836271	GEN	downregulate	neg	SCD1
-34836271	GEN	downregulate	neg	fatty acid
-34836271	GEN	downregulate	neg	carnitine palmitoyltransferase 1α
-34836271	GEN	downregulate	neg	peroxisome proliferator-activated receptor α
-34836271	GEN	involve	pos	sterol-regulatory element-binding protein-1c
-34836271	GEN	involve	pos	SREBP-1c
-34836271	GEN	involve	pos	fatty acid synthase
-34836271	GEN	involve	pos	FASN
-34836271	GEN	involve	pos	stearoyl-coenzyme A desaturase 1
-34836271	GEN	involve	pos	SCD1
-34836271	GEN	involve	pos	fatty acid
-34836271	GEN	involve	pos	carnitine palmitoyltransferase 1α
-34836271	GEN	involve	pos	peroxisome proliferator-activated receptor α
-34836271	GEN	upregulate	pos	fatty acid
-34836271	GEN	upregulate	pos	carnitine palmitoyltransferase 1α
-34836271	GEN	upregulate	pos	peroxisome proliferator-activated receptor α
-34836271	GEN	improve	pos	Akt/mTOR
-34836271	GEN	activate	pos	Akt/mTOR
-34856412	bile acid	regulate	pos	fatty acid
-34856412	cholesterol	regulate	pos	fatty acid
-34856412	glucose	regulate	pos	fatty acid
-34897744	Fluoxetine	increase	pos	Ptgs1
-34897744	Fluoxetine	increase	pos	Ptgs2
-34897744	Fluoxetine	increase	pos	Ptgds
-34897744	Fluoxetine	increase	pos	PPAR gamma
-34897744	Fluoxetine	increase	pos	PPAR gamma
-34897744	Fluoxetine	increase	pos	fatty acid
-34897744	Fluoxetine	increase	pos	Cd36
-34897744	Fluoxetine	increase	pos	Fatp2
-34897744	Fluoxetine	increase	pos	Fatp5
-34897744	Fluoxetine	involve	pos	fatty acid
-34897744	Fluoxetine	involve	pos	Cd36
-34897744	Fluoxetine	involve	pos	Fatp2
-34897744	Fluoxetine	involve	pos	Fatp5
-34897744	prostaglandin	involve	pos	fatty acid
-34897744	prostaglandin	involve	pos	Cd36
-34897744	prostaglandin	involve	pos	Fatp2
-34897744	prostaglandin	involve	pos	Fatp5
+PMID	chemical	trigger	target
+25736031	Fructose	induce	insulin resistance
+25736031	Fructose	alter	liver metabolism and gut barrier function
+25736031	Citrulline	improve	insulin sensitivity
+25736031	Glutamine	improve	insulin sensitivity
+25736031	Arginine	improve	insulin sensitivity
+25736031	fructose	alter	glucose homeostasis
+25736031	Fructose	decrease	Bifidobacterium and Lactobacillus
+25736031	Fructose	increase	endotoxemia
+25736031	Citrulline	prevent	hypertriglyceridemia
+25736031	Arginine	prevent	hypertriglyceridemia
+25736031	Glutamine	prevent	hypertriglyceridemia
+25736031	Citrulline	attenuate	liver fat accumulation
+25736031	Arginine	attenuate	liver fat accumulation
+25736031	Glutamine	attenuate	liver fat accumulation
+25736031	nitrogen	attenuate	fructose-induced non-alcoholic fatty liver disease
+25736031	Citrulline	attenuate	fructose-induced non-alcoholic fatty liver disease
+25736031	Citrulline	prevent	hypertriglyceridemia and steatosis
+26396156	carbohydrate	waste	disorders, metabolic disease, and nonalcoholic fatty liver disease
+26396156	Pparα	indicate	changes in peroxisomal fatty acid oxidation and ketogenesis
+26396156	acyl-CoA oxidase	indicate	changes in peroxisomal fatty acid oxidation and ketogenesis
+26396156	Acox1	indicate	changes in peroxisomal fatty acid oxidation and ketogenesis
+26396156	hydroxy-3-methylglutaryl-CoA synthase 2	indicate	changes in peroxisomal fatty acid oxidation and ketogenesis
+26396156	Hmgcs2	indicate	changes in peroxisomal fatty acid oxidation and ketogenesis
+26396156	PCB126-induced	decrease	serum glucose caused by decreased hepatic glucose production
+26396156	PCB126-induced	decrease	peroxisomal fatty acid oxidation
+26640164	Tetracycline	cause	hepatic steatosis, and
+26640164	bicyclol	attenuate	tetracycline-induced fatty liver
+26640164	tetracycline	evaluate	liver injuries
+26640164	serum ALT	evaluate	liver injuries
+26640164	AST	evaluate	liver injuries
+26640164	TG	evaluate	liver injuries
+26640164	CHO	evaluate	liver injuries
+26640164	bicyclol	alleviate	hepatic apoptosis and the gene expression of caspase-3
+26640164	bicyclol	increase	the gene expression of XIAP
+26640164	bicyclol	protect	tetracycline-induced fatty liver
+27062444	Peroxisome proliferator-activated receptor gamma	regulate	lipogenesis and lipid accumulation
+27062444	Lieber-DeCarli alcohol	control	liquid diet
+27062444	maltose dextrin	control	liquid diet
+27062444	hepatic PPARγ	alleviate	alcohol-induced lipid accumulation
+27062444	hepatic PPARγ	abolish	the up-regulation of FASN, DGAT1, and DGAT2
+27062444	FL83B cells	decrease	ethanol (EtOH)-, linoleic acid-, and EtOH plus linoleic acid-induced lipid accumulation
+27108203	PFOS	increase	the transcriptional expression of nuclear receptors
+27108203	PFOS	decrease	liver ATP content and serum level of VLDL/LDL lipoprotein in males
+27108203	PFOS	induce	hepatic steatosis in zebrafish
+27108203	PFOS	disturb	lipid biosynthesis, fatty acid β-oxidation and excretion of VLDL/LDL lipoprotein
+27108203	PFOS	demonstrate	the validity of using zebrafish as an alternative model for PFOS chronic toxicity screening
+27124661	ethanol	dysregulate	PTEN/Akt signaling
+27124661	tensin homolog	possess	constitutive activation of Akt(s
+27124661	tensin	possess	constitutive activation of Akt(s
+27124661	tensin homolog	increase	de novo lipogenesis resulting in increased hepatocellular steatosis
+27124661	tensin	increase	de novo lipogenesis resulting in increased hepatocellular steatosis
+27124661	ethanol	increase	ALT, liver triglycerides and steatosis
+27124661	ethanol	decrease	hepatocellular damage
+27124661	ethanol	have	no effect in PTENLKO animals
+27220557	FO	attenuate	the ethanol-induced hepatic lipid accumulation in mice
+27220557	Ethanol	stimulate	adipose lipolysis
+27220557	Ethanol	reduce	fatty acid/lipid uptake, which were normalized by FO
+27220557	FO	normalize	lipid metabolism in adipose tissue
+27220557	alcohol	stimulate	hepatic fatty acid uptake and triglyceride synthesis, which were attenuated by FO
+27220557	FO	upregulate	plasma adiponectin concentration
+27220557	FO	upregulate	hepatic adiponectin receptor 2 expression
+27220557	FO	improve	lipid homeostasis
+27614967	ginsenosides	reduce	TG content (9.69±0.22 μg/mg protein vs. 4.93±0.49 μg/mg protein, P<0.01), and ROS formation (7254.8±385.7 vs. 5825.2±375.9, P<0.01)
+27614967	ginsenosides	down-regulate	CYP2E1 expression (P<0.01)
+27614967	ginsenosides	upregulate	PPARα expression (P<0.01) in ethanol-treated cells
+27614967	Ginsenosides	prevent	ethanol-induced hepatocyte steatosis in vitro related to the inhibition of oxidative stress and the improvement of mitochondrial function
+27614967	CYP2E1	play	an important role
+27614967	PPARα	play	an important role
+27627966	alcohol	cause	hepatic lipid accumulation
+27627966	alcohol	cause	hepatic lipid accumulation in Tlr4-wild-type mice but not in Tlr4-mutant mice
+27692001	fatty liver	exhibit	hyperketonemia, oxidative stress,
+27692001	AcAc	decrease	the mRNA expression and activities of antioxidant enzymes superoxide dismutase (SOD), catalase (CAT), and glutathione peroxidase (GSH-Px),
+27692001	AcAc	increase	malondialdehyde (MDA) content, indicative of oxidative stress
+27692001	AcAc	down-regulate	the mRNA expression of apolipoprotein B100 (ApoB100), apolipoprotein E (ApoE), and low density lipoprotein receptor (LDLR), which thus decreased VLDL assembly
+27692001	LDLR	decrease	VLDL assembly
+27692001	AcAc	increase	triglyceride (TG) accumulation in these bovine hepatocytes
+27692001	NAC	relieve	AcAc-induced oxidative stress
+27692001	NAC	increase	VLDL assembly
+27692001	VLDL	increase	TG accumulation in bovine hepatocytes
+27837167	ligustrazine	attenuate	alcohol-induced hepatic steatosis and in vitro study
+27837167	Nrf2	establish	Nrf2-knockdown mice
+27837167	Nrf2	aggravate	alcoholic liver injury
+27837167	Nrf2	abolish	the protective effect of ligustrazine, evidenced by elevated serum biomarkers and severe liver inflammation
+27837167	Ligustrazine	ameliorate	hepatic steatosis
+27837167	Ligustrazine	inhibit	hepatic sterol regulatory element-binding protein-1c and inducing peroxisome proliferator-activated receptor-alpha, which was abrogated by Nrf2 knockdown
+27837167	Noteworthily	reinforce	the inductive effect of alcohol on hypoxia-inducible factor 1-alpha (HIF-1α)
+27837167	Nrf2	reinforce	the inductive effect of alcohol on hypoxia-inducible factor 1-alpha (HIF-1α)
+27837167	Ligustrazine	weaken	the stimulation of alcohol on HIF-1α expression, which was abrogated by Nrf2 shRNA lentivirus
+27837167	Nrf2	abolish	the inhibitory effect of ligustrazine
+27837167	dimethyloxalylglycine	abolish	the inhibitory effect of ligustrazine
+27837167	HIF-1α	abolish	the inhibitory effect of ligustrazine
+27837167	HIF-1α	mimic	the role of ligustrazine
+27837167	Nrf2	mimic	the role of ligustrazine
+27837167	dimethyloxalylglycine	mimic	the role of ligustrazine
+27837167	HIF-1α	mimic	the role of ligustrazine
+27837167	HIF-1α	rescue	the inhibitory effect of ligustrazine on ethanol-induced lipid accumulation in Nrf2-knockdown hepatocytes
+27837167	Nrf2	rescue	the inhibitory effect of ligustrazine on ethanol-induced lipid accumulation in Nrf2-knockdown hepatocytes
+27837167	dimethyloxalylglycine	rescue	the inhibitory effect of ligustrazine on ethanol-induced lipid accumulation in Nrf2-knockdown hepatocytes
+27837167	HIF-1α	rescue	the inhibitory effect of ligustrazine on ethanol-induced lipid accumulation in Nrf2-knockdown hepatocytes
+27837167	ligustrazine	attenuate	alcohol-induced hepatic steatosis
+28131861	Cyp2a5	feed	the Lieber-Decarli ethanol diet
+28131861	Cyp2a5 Mice	feed	the Lieber-Decarli ethanol diet
+28131861	Cyp2a5	induce	alcoholic fatty liver
+28131861	Cyp2a5 Mice	induce	alcoholic fatty liver
+28366540	VPA	enhance	the efficiency of fatty acid uptake mediated by CD36
+28366540	VPA	increase	DGAT2 expression
+28366540	DGAT2	alleviate	VPA-induced intracellular lipid accumulation
+28366540	CD36	offer	novel therapeutic strategies to combat VPA-induced hepatotoxicity
+28366540	DGAT2	offer	novel therapeutic strategies to combat VPA-induced hepatotoxicity
+28449683	FK866	promote	liver steatosis in the mice fed with HFD and hepatic lipid accumulation in vitro
+28449683	NAMPT	aggravate	the HFD- or oleic acid-induced hepatic steatosis
+28449683	Nicotinamide	aggravate	the HFD- or oleic acid-induced hepatic steatosis
+28449683	NMN	aggravate	the HFD- or oleic acid-induced hepatic steatosis
+28449683	NAD	aggravate	the HFD- or oleic acid-induced hepatic steatosis
+28449683	Nicotinamide mononucleotide	aggravate	the HFD- or oleic acid-induced hepatic steatosis
+28449683	NAMPT	suppress	Sirt1-mediated signaling pathway
+28449683	Nicotinamide	suppress	Sirt1-mediated signaling pathway
+28449683	NMN	suppress	Sirt1-mediated signaling pathway
+28449683	NAD	suppress	Sirt1-mediated signaling pathway
+28449683	Nicotinamide mononucleotide	suppress	Sirt1-mediated signaling pathway
+28449683	NAMPT	reduce	the production of NAD
+28465000	aspartame	induce	hyperglycemia and hypertriacylglycerolemia
+28465000	adiponectin	activate	receptor-γ (PPAR-γ) expression
+28777337	Tunicamycin	develop	an anti-cancer drug
+28777337	ER	develop	an anti-cancer drug
+28777337	Tunicamycin	induce	a yellowish color and ER stress, as well as
+28777337	Tunicamycin	increase	serum levels of aspartate transaminase and alanine transaminase
+28777337	tunicamycin	increase	hepatic triglyceride content
+28777337	tunicamycin	suppress	the expression of apolipoprotein B100
+28777337	Tunicamycin	alter	hepatic energy homeostasis
+28777337	Tunicamycin	increase	triglyceride accumulation
+28777337	Tunicamycin	decrease	glycogen content
+28803762	Alcohol	reverse	this disease
+28803762	Apigenin	increase	the expression of hepatic peroxisome proliferator-activated receptor alpha (PPARα) and carnitine palmitoyltransferase-1 proteins
+28803762	Apigenin	decrease	the expression of hepatic sterol regulatory element binding protein-1c, fatty acid synthase, and diacylglycerol acyltransferase proteins
+28803762	apigenin	exert	a protective effect
+28933423	omega-3 PUFA	ameliorate	Hcy-induced hepatic steatosis
+28933423	ceramide	ameliorate	hepatic lipid accumulation
+28933423	omega-3 PUFA	ameliorate	hepatic lipid accumulation
+28962527	Amiodarone	cause	liver steatosis
+28962527	Amiodarone	reduce	intracellular ATP and Ca2
+28962527	Amiodarone	induce	ER stress and lipid accumulation
+28962527	amiodarone	increase	hepatic mRNA expression of lipid droplet proteins, particularly Cidea and Cidec, in WT, but
+28962527	amiodarone	suggest	a link between ER stress
+28962527	amiodarone	increase	triglyceride storage
+28962527	insulin	attenuate	amiodarone-induced phosphorylation of hormone sensitive lipase (HSL) in WT
+28962527	ER	reduce	lipid accumulation
+28962527	ER	drive	liver steatosis
+28987868	Protein kinase B	play	important roles
+28987868	PKB/Akt	play	important roles
+28987868	cytochrome P4502E1	play	causal roles
+28987868	CYP2E1	play	causal roles
+28987868	ethanol	have	no effects on the protein levels of phosphatidylinositol 3 kinase (PI3K) and phosphatase and tensin homologue deleted on chromosome ten (PTEN)
+28987868	N-acetyl-L-cysteine	attenuate	chronic ethanol-induced hepatic fat accumulation and the decline of Akt phosphorylation at Thr308
+28987868	NAC	attenuate	chronic ethanol-induced hepatic fat accumulation and the decline of Akt phosphorylation at Thr308
+28987868	Akt	alleviate	chronic ethanol-induced fatty liver
+28987868	insulin-like growth factor-1	alleviate	chronic ethanol-induced fatty liver
+28987868	IGF-1	alleviate	chronic ethanol-induced fatty liver
+29126901	LXR activator	induced	lipid accumulation and docosahexaenoic acid (DHA; a representative n-3 PUFA)
+29126901	LXR activator	inhibit	lipid accumulation
+29126901	DHA	inhibit	T0901317-induced lipid accumulation in primary hepatocytes from wild type mice, but not in those from FFA4 deficient mice
+29169220	HepG2 cells	induce	lipogenesis and accumulation of intracellular lipid contents
+29169220	HepG2 cells	increase	the expression of SREBP-1
+29169220	PA	increase	the expression of SREBP-1
+29169220	estrogen	increase	the expression of SREBP-1
+29169220	genistein	increase	the expression of SREBP-1
+29404450	intracellular	play	a key role
+29404450	hepatocytes	contain	juxtanuclear lysosomes that exhibited impaired motility
+29404450	juxtanuclear lysosomes	exhibit	impaired motility
+29457836	alcohol	cause	hepatic lipid accumulation
+29457836	rapamycin complex 1	play	a causal role
+29457836	rapamycin	play	a causal role
+29457836	hepatic DEPTOR	suppress	mTORC1 signaling
+29457836	hepatic DEPTOR	ameliorate	alcoholic hepatosteatosis, inflammation, and acute-on-chronic liver injury
+29457836	mTORC1	attenuate	alcohol-induced cytoplasmic accumulation of the lipogenic regulator lipin 1
+29457836	mTORC1	prevent	alcohol-mediated inhibition of fatty acid oxidation
+29457836	rapamycin	alleviate	the ability of alcohol to up-regulate lipogenesis
+29457836	rapamycin	down-regulate	fatty acid oxidation
+29457836	rapamycin	induce	steatogenic phenotypes
+29457836	hepatocyte-specific	disrupt	DEPTOR function
+29457836	SIRT1	disrupt	DEPTOR function
+29457836	hepatocyte-specific	enhance	mTORC1 activity
+29457836	SIRT1	enhance	mTORC1 activity
+29526820	benzbromarone	induce	hepatic toxicity in patients
+29526820	benzbromarone	aggravate	hepatic steatosis in both obese db/db mice and high fat diet (HFD)-induced obese (DIO) mouse models
+29526820	benzbromarone	have	less effect on the liver of lean mice
+29526820	benzbromarone	promote	intracellular lipid accumulation under high free fatty acids (FFAs) conditions
+29526820	benzbromarone	regulate	the expression of lipid metabolism genes
+29526820	benzbromarone	increase	cell apoptosis in HepG2 cells
+29526820	benzbromarone	aggravate	hepatic steatosis in obese individuals,
+29526820	benzbromarone	suggest	a novel toxicological mechanism in benzbromarone-induced hepatotoxicity
+29529605	AMPKα	increase	the expression and transcriptional activity of peroxisome proliferator-activated receptor α
+29529605	AMPKα	upregulate	the expression of lipid oxidation genes
+29529605	element-binding protein 1c	reduce	the expression of lipogenic genes
+29529605	acetic acid	activate	the AMPKα signalling pathway
+29529605	acetic acid	decrease	lipid synthesis in BRL-3A cells
+29529605	acetic acid	reduce	liver fat accumulation
+29587622	Diacylglycerol acyltransferase 1	catalyze	the final step in triglyceride synthesis
+29587622	Diacylglycerol	catalyze	the final step in triglyceride synthesis
+29597210	Saturated fatty acid palmitate	stimulate	lipid accumulation and apoptosis in hepatocytes
+29597210	Palmitate	induce	lipid accumulation and mRNA expression of lipogenic genes such as SREBP1c and SCD1
+29597210	palmitate	stimulate	caspase-3 activity
+29597210	palmitate	decrease	cell viability
+29597210	AMP-activated protein kinase	abolish	the effects of BO
+29597210	BO	attenuate	palmitate-induced hepatic steatosis and apoptosis
+29625129	miR-378	impair	FAO
+29625129	miR-378	promote	lipid accumulation in murine hepatoma Hepa1-6 cells
+29625129	miR-378	improve	FAO
+29625129	miR-378	reduce	intracellular lipid content in Hepa1-6 cells
+29625129	Liver-specific	impair	FAO, which subsequently promoted the development of hepatosteatosis
+29625129	miR-378	impair	FAO, which subsequently promoted the development of hepatosteatosis
+29625129	miR-378	promote	the development of hepatosteatosis
+29625129	Nrf1	offset	the effects of miR-378-ASO
+29625129	Nrf1	mediate	the inhibitory effect of miR-378-ASO on hepatosteatosis
+29625129	Nrf1	mediate	the inhibitory effect of miR-378-ASO on hepatosteatosis
+29625129	Nrf1	promote	the pathogenesis of hepatosteatosis
+29630881	aldose reductase	ameliorate	alcoholic hepatic steatosis
+29630881	AR	improve	alcoholic hepatic steatosis
+29630881	AR	feed	a Lieber-DeCarli liquid diet
+29630881	AR	affect	carbohydrates and peptides
+29630881	AR	impair	galactose metabolism
+29630881	galactose	impair	galactose metabolism
+29630881	fatty acid	impair	galactose metabolism
+29630881	AR	perturb	fatty acid biosynthesis
+29630881	galactose	perturb	fatty acid biosynthesis
+29630881	fatty acid	perturb	fatty acid biosynthesis
+29630881	AR	suppress	ethanol-activated galactose metabolism and saturated fatty acid biosynthesis
+29630881	sorbitol	augment	ethanol-induced steatosis and stearic acid
+29704577	lipids	modify	energy metabolism, hepatic structure and function
+29704577	steroids	modify	energy metabolism, hepatic structure and function
+29704577	AS	reduce	plasma HDL cholesterol levels
+29782848	alcohol	affect	these processes
+29782848	TFEB	regulate	lysosomal biogenesis
+29782848	alcohol	evaluate	the functions of transcription factor EB (TFEB), which regulates lysosomal biogenesis
+29782848	liver-specific	have	lower levels of total and nuclear TFEB
+29782848	TFEB	have	lower levels of total and nuclear TFEB
+29782848	Tefb	have	lower levels of total and nuclear TFEB
+29782848	Tfe3	have	lower levels of total and nuclear TFEB
+29782848	TFEB	have	lower levels of total and nuclear TFEB
+29782848	TFE3	have	lower levels of total and nuclear TFEB
+29782848	Tfeb Liver tissues	have	lower levels of total and nuclear TFEB
+29782848	ethanol	have	lower levels of total and nuclear TFEB
+29782848	hepatocytes	decrease	lysosome biogenesis and autophagy
+29782848	liver-specific	decrease	lysosome biogenesis and autophagy
+29782848	TFEB	decrease	lysosome biogenesis and autophagy
+29782848	Tefb	decrease	lysosome biogenesis and autophagy
+29782848	Tfe3	decrease	lysosome biogenesis and autophagy
+29782848	TFEB	decrease	lysosome biogenesis and autophagy
+29782848	TFE3	decrease	lysosome biogenesis and autophagy
+29782848	Tfeb Liver tissues	decrease	lysosome biogenesis and autophagy
+29782848	ethanol	decrease	lysosome biogenesis and autophagy
+29782848	Hepatocytes	increase	translocation of mTOR into lysosomes
+29782848	ethanol	increase	translocation of mTOR into lysosomes
+29782848	torin-1	increase	liver levels of TFEB
+29782848	torin-1	decrease	steatosis and liver injury induced by ethanol
+29782848	TFEB	develop	less severe ethanol-induced liver injury
+29782848	TFEB	increase	lysosomal biogenesis and mitochondrial bioenergetics
+29782848	TFEB	develop	more severe liver injury
+29782848	TFEB-TFE3	develop	more severe liver injury
+29782848	Liver tissues	have	 lower nuclear levels of TFEB than control tissues
+29782848	ethanol	decrease	hepatic expression of TFEB, which is required for lysosomal biogenesis and autophagy
+29782848	mTOR	protect	the liver
+29782848	TFEB	protect	the liver
+29934713	Lipin-1	perform	dual function
+29934713	exendin-4	prevent	endoplasmic reticulum (ER) stress-induced hepatic steatosis
+29934713	Exendin-4	decrease	the expression of ER stress markers
+29934713	Exendin-4	decrease	glucose-regulated protein 78 kDa (GRP78) proteins and spliced X-box binding protein 1 (XBP-1s) mRNA
+29934713	Exendin-4	phosphorylate	PKR like ER kinase (PERK), phosphorylated inositol-requiring enzyme 1 alpha (IRE1α)
+29934713	Exendin-4	increase	the expression of genes encoding lipolytic enzymes hormone-sensitive lipase (HSL) and monoacylglycerol lipase (MGL) and VLDL assembly-associated proteins microsomal triglyceride transfer protein (MTP) and apolipoprotein B (APOB) in tunicamycin-pretreated cells
+29934713	exendin-4	decrease	lipin-1β/α ratio
+29934713	exendin-4	increase	SFRP10
+29934713	exendin-4	increase	lipin-1 nuclear localization
+29934713	exendin-4	improve	ER stress-induced hepatic lipid accumulation
+29934713	exendin-4	increase	lipolysis and VLDL assembly
+30138652	Nanoparticle	promote	hepatic steatosis
+30138652	Nanoparticle	investigate	the influence of multi-walled carbon nanotubes (MWCNTs) on lipid accumulation in hepatocytes
+30138652	MWCNTs	accompany	cytotoxicity, lysosomal destabilization, and intracellular reactive oxygen species (ROS) production
+30138652	carboxylated MWCNTs	accompany	cytotoxicity, lysosomal destabilization, and intracellular reactive oxygen species (ROS) production
+30214048	JMJD2B	stimulate	the expression of peroxisome proliferator-activated receptor γ2 (PPARγ2) and its steatosis target genes associated with fatty acid uptake and lipid droplet formation
+30214048	HepG2 cells	stimulate	the expression of peroxisome proliferator-activated receptor γ2 (PPARγ2) and its steatosis target genes associated with fatty acid uptake and lipid droplet formation
+30214048	JMJD2B	feed	a HFD, which was accompanied with increased expression of hepatic PPARγ2 and its steatosis target genes
+30248338	hepatocyte VDR	set	steatosis
+30248338	ANGPTL8	attenuate	free fatty acids-induced triglyceride accumulation in these cells
+30248338	fatty acids	up-regulate	both VDR and ANGPTL8 mRNA
+30248338	insulin	up-regulate	both VDR and ANGPTL8 mRNA
+30248338	VDR	up-regulate	ANGPTL8 expression
+30248338	hepatic ANGPTL8	play	a key role
+30452912	Doxorubicin	disturb	the lipid metabolism
+30452912	doxorubicin	impede	lipogenesis and elevated lipolysis
+30452912	Doxorubicin	impair	the lipogenesis through PPARγ
+30452912	Doxorubicin	augment	lipolysis and fatty acid oxidation through ATGL and PPARα
+30452912	Apo B	develop	insulin resistance and hepatic steatosis condition
+30452912	fatty acid	dysregulate	AHR, PXR, PPARγ, ATGL and Apo B,which further develop insulin resistance and hepatic steatosis condition
+30452912	adipose tissue	dysregulate	AHR, PXR, PPARγ, ATGL and Apo B,which further develop insulin resistance and hepatic steatosis condition
+30557836	Dipeptidyl peptidase-4	exert	beneficial effects against insulin resistance (IR) and type 2 diabetes
+30557836	DPP-4	ameliorate	COC-induced glucose dysregulation and hepatic triglyceride (TG) accumulation through adenosine deaminase (ADA) /xanthine oxidase (XO) /uric acid-dependent pathway
+30557836	COC	result	in increased plasma and hepatic TG, TG/HDL-cholesterol ratio, malondialdehyde, uric acid (plasma; 25.2 ± 0.6 mg/dl; hepatic 128.9 ± 8.0 mg/100 mg tissue), lactate dehydrogenase, DPP-4, ADA and XO (plasma;10.5 ± 1.1 U/L; hepatic 21.2 ± 1.4 U/g protein) activities
+30557836	DPP-4	ameliorate	these alterations induced by COC treatment through suppression of uric acid (plasma; 15.1 ± 1.0 mg/dl, hepatic; 75.6 ± 5.0 mg/100 mg tissue), XO (plasma;
+30557836	DPP-4	ameliorate	4.1 ± 0.9 U/L, hepatic; 8.7 ± 0.4 U/g protein), ADA and DPP-4 activities suggesting their involvement in glucose dysregulation and hepatic TG accumulation induced by COC treatment
+30562559	p70 ribosomal protein subunit 6 kinase 1	improve	hepatic steatosis
+30677459	cell	study	the impact of efavirenz on PXR activities and lipid homeostasis
+30677459	efavirenz	activate	PXR
+30677459	efavirenz	induce	its target gene expression
+30677459	hepatic PXR	abolish	these adverse effects
+30677459	PXR	regulate	the expression of several key hepatic lipogenic genes including fatty acid transporter CD36 and cholesterol biosynthesis enzyme squalene epoxidase (SQLE)
+30677459	PXR	exhibit	considerable differences in its pharmacology across species
+30677459	efavirenz	induce	hypercholesterolemia and hepatic steatosis
+30677459	efavirenz	activate	PXR signaling
+30677459	efavirenz	activate	a unique liver protein called PXR which mediates the adverse effects of efavirenz on lipid levels in mouse models
+30677459	PXR	mediate	the adverse effects of efavirenz on lipid levels in mouse models
+30824780	Cell	add	3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyl tetrazolium bromide (MTT)
+30824780	Silybin	ameliorate	the harmful BPA-induced effect decreasing glucose uptake and lipid peroxidation
+30824780	silybin	activate	the synthesis of vitamin D3 metabolites
+30824780	silybin	prevent	the steroid hormones oxidation
+30880507	Metformin	inhibit	gluconeogenesis and glycogenolysis in hepatocytes
+30880507	Metformin	limit	lipid storage in the liver
+30880507	endocannabinoids	modulate	hepatosteatosis
+30880507	metformin	modulate	hepatosteatosis
+30880507	metformin	affect	lipid accumulation in hepatocytes
+30880507	intracellular lipids	use	Oil-Red-O staining
+30880507	AM1241	treat	Hep3B cells
+30880507	H-indol-3-yl]methanone	treat	Hep3B cells
+30880507	Met	decrease	lipid accumulation in cells treated with OA
+30880507	Met	inhibit	CB1R agonist-induced lipid accumulation in hepatocytes
+30880507	metformin	inhibit	CB1R agonist-stimulated fat accumulation in hepatocytes
+31026768	Vinyl chloride	cause	steatohepatitis
+31026768	Mitochondrial	play	key roles
+31026768	Mitochondrial	mediate	this interaction
+31026768	low-dose	cause	liver injury
+31026768	VC	decrease	hepatic ALDH2 activity of mice
+31026768	VC	feed	HFD
+31026768	Alda-1	attenuate	oxidative stress, liver injury, and dysmetabolism in mice exposed to HFD+VC under these conditions
+31026768	Alda-1	suppress	PINK1/PARKIN-mediated mitophagy
+31026768	ALDH2	confer	protection against liver damage under these conditions
+31026768	Alda-1	confer	protection against liver damage under these conditions
+31053639	dexamethasone	induce	the rate of hepatic
+31151157	Thioacetamide	induce	lipid accumulation in the liver
+31330194	dexamethasone	induce	steatosis
+31463983	vitamin D	establish	an animal model of vitamin D deficiency
+31463983	vitamin D	induce	hepatic lipid accumulation
+31463983	vitamin D	reduce	alcohol-induced triacylglycerol (TAG) content
+31463983	vitamin D deficiency	reduce	alcohol-induced triacylglycerol (TAG) content
+31463983	vitamin D	prevent	hepatic lipid accumulation
+31463983	vitamin D deficiency	prevent	hepatic lipid accumulation
+31463983	vitamin D	attenuate	alcohol-induced sterol-regulated element-binding protein (SREBP)-1c activation, which regulates genes for hepatic fatty acid (FA) and TAG synthesis
+31463983	vitamin D	attenuate	the expression of its target genes fatty acid synthase (Fasn) and acetyl-coenzyme- A carboxylase (Acc)
+31463983	sterol-regulated element-binding protein (SREBP)-1c	regulate	genes for hepatic fatty acid (FA) and TAG synthesis
+31463983	vitamin D	alleviate	alcohol-induced downregulation of hepatic nuclear peroxisome proliferator-activated receptor (PPAR)α, which governs FA transport and β-oxidation
+31463983	hepatic nuclear peroxisome proliferator-activated receptor	govern	FA transport and β-oxidation
+31463983	Vitamin D	alleviate	acute alcohol-induced hepatic lipid accumulation
+31463983	Vitamin D	inhibit	hepatic de novo fatty acid syntheses
+31463983	Vitamin D	promote	fatty acid β-oxidation and ω-oxidation
+31470036	Bisphenol A	increase	cholesterol levels
+31470036	BPA	increase	cholesterol levels
+31470036	plasticizers	increase	cholesterol levels
+31470036	BPA	increase	hepatic cholesterol content
+31470036	BPA	decrease	the DNA methylation levels of SREBP-2
+31470036	DNA	decrease	the DNA methylation levels of SREBP-2
+31470036	BPA	increase	the expression levels of SREBP-1c and stearoyl-CoA desaturase 1 in the liver
+31470036	BPA	induce	hepatic lipid synthesis and fat accumulation
+31470036	low-dose	induce	hepatic cholesterol synthesis
+31470036	BPA	induce	hepatic cholesterol synthesis
+31470036	cholesterol	cause	cholesterol accumulation
+31470036	low-dose	decrease	the DNA methylation levels of SREBP-2
+31470036	BPA	decrease	the DNA methylation levels of SREBP-2
+31470036	low-dose	induce	liver lipid synthesis and hepatic steatosis
+31470036	BPA	induce	liver lipid synthesis and hepatic steatosis
+31470036	low-dose	up-regulate	the expression of genes related to cholesterol synthesis in the liver, which causes cholesterol accumulation
+31470036	BPA	up-regulate	the expression of genes related to cholesterol synthesis in the liver, which causes cholesterol accumulation
+31473330	steroid	modulate	multiple physiological processes in teleosts
+31473330	E2	upregulate	TC, TG, LDL, and HDL
+31473330	E2	show	a significantly higher expression of the VLDL assembly genes but depressed levels of LDLR and LRP1
+31473330	ICI	inhibit	the expression of MTP, LPL, LRP1, CD36, FABP11a, ACO1 and FAS in tilapia livers
+31473330	E2	induce	deposition of lipids in the livers of hybrid tilapia
+31473330	E2	stimulate	the expression of genes associated with the VLDL assembly
+31473330	E2	inhibit	lipoprotein lipase and lipoprotein receptor-related genes
+31473330	E2	promote	the rate-limiting enzyme in the synthesis of the TG
+31473330	E2	provide	new clues to illustrate the sex steroid function in energy metabolism in livers
+31491605	Mono-2-ethylhexyl phthalate	induce	lipid accumulation in hepatocytes
+31491605	MEHP	induce	lipid accumulation in hepatocytes
+31491605	DEHP	induce	lipid accumulation in hepatocytes
+31491605	Di-(2-ethylhexyl	induce	lipid accumulation in hepatocytes
+31491605	phthalate	induce	lipid accumulation in hepatocytes
+31491605	MEHP	promote	the lipid synthesis and accumulation in BRL-3A cells
+31491605	MEHP	down-regulate	the expression
+31491605	MEHP	inhibit	the activation of JAK2/STAT5
+31491605	MEHP	inhibit	JAK2/STAT5 pathway
+31682409	Cd	induce	NAFLD
+31682409	Cd	cause	marked hepatic mitochondrial dysfunction and fatty acid oxidation deficiency, along with significant suppression of sirtuin 1 (SIRT1) signaling pathway in the liver
+31682409	Cd	inhibit	the mitochondrial fatty acid oxidation in hepatocytes
+31682409	Cd	deserve	greater attention
+31857090	xanthine oxidase	exert	both inflammatory and oxidative effects
+31857090	xanthine	exert	both inflammatory and oxidative effects
+31857090	SCFAs	elicit	beneficial metabolic alterations in IR and related syndromes
+31857090	fatty acids (SCFAs	elicit	beneficial metabolic alterations in IR and related syndromes
+31857090	nicotine	increase	fasting plasma glucose, lactate, IR, plasma and hepatic TG, free fatty acid, TG/HDL-cholesterol ratio, lipid peroxidation, liver function enzymes, plasma and hepatic UA, XO and ADA activities
+31857090	acetate	ameliorate	nicotine-induced effects
+31857090	nicotine	enhance	XO activity
+31857090	acetate	confer	hepatoprotection
+31866205	SFAs	maintain	cell metabolic hemostasis
+31866205	PA	induce	lipotoxic effects
+31866205	PA	induce	lipotoxic effects
+31866205	LPA	induce	lipotoxic effects
+31866205	PA	increase	mitochondrial functions
+31866205	LPA	increase	mitochondrial functions
+31866205	PA	alleviate	the injuries induced by HPA or hepatoxic agent carbon tetrachloride (CCl
+31866205	LPA	alleviate	the injuries induced by HPA or hepatoxic agent carbon tetrachloride (CCl
+32165129	valproate	impaired	lipid droplet disposal starting at 1 mM after incubation for 3 or 7 days
+32165129	Valproate	increase	the expression of genes associated with fatty acid import and triglyceride synthesis
+32165129	Valproate	affect	expression of genes engaged in fatty acid activation
+32165129	Valproate	impair	mitochondrial fatty acid metabolism
+32165129	Valproate	inhibit	β-ketothiolase
+32165129	Valproate	increase	the mitochondrial DNA copy number per HepaRG cell,
+32165129	Valproate	decrease	the hepatocellular mRNA and protein expression of the fatty acid binding protein 1 (FABP1) and of the microsomal triglyceride transfer protein (MTTP)
+32165129	Valproate	increase	the hepatocellular concentration of free fatty acids
+32165129	valproate	decrease	protein expression and excretion of ApoB100 in HepaRG cells
+32165129	valproate	reflect	impaired formation and excretion of very low-density lipoprotein (VLDL)
+32165129	valproate	increase	the hepatocellular triglyceride content
+32165129	Valproate	cause	cell death
+32165129	Valproate	increase	hepatocellular concentration of free fatty acids
+32231762	Mitochondrial	examine	High AA
+32231762	DHA	decrease	mitochondrial activity ( High AA:
+32231762	DHA	induce	triglyceride accumulation
+32231762	DHA	induce	triglyceride accumulation
+32231762	DHA	increase	oxidative stress
+32231762	DHA	increase	oxidative stress
+32231762	DHA	disrupt	mitochondrial functions
+32231762	DHA	disrupt	mitochondrial functions
+32231762	steroidal transcription factors	mediate	these effects
+32324591	SCD1	regulate	lipophagy in hepatic steatosis
+32324591	hepatic steatosis	investigate	the molecular mechanisms through which SCD1 regulates lipophagy in hepatic steatosis
+32324591	hepatic steatosis	induce	mouse primary hepatocytes with sodium palmitate and feeding C57BL/6 mice with HFD
+32324591	sodium palmitate-treated hepatocytes	increase	SCD1 expression, AMPK inactivation and defective lipophagy
+32324591	SCD1	reduce	lipid deposition
+32324591	hepatocytes	reduce	lipid deposition
+32324591	SCD1	regulate	lipophagy
+32324591	SCD1	affect	lipid metabolism
+32324591	CAY10566(an	decrease	hepatic steatosis and hepatic lipid droplet accumulation, as well as enhanced AMPK activity and lipophagy
+32324591	SCD1	ameliorate	hepatic steatosis
+32324591	SCD1	induce	AMPK-mediated lipophagy
+32410680	nicotinamide adenine dinucleotide	feed	a control diet, or an intervention diet supplemented with 0.9% (w/w) tetradecylthiopropionic acid for 14 days
+32410680	NAD 12 C57BL/6	feed	a control diet, or an intervention diet supplemented with 0.9% (w/w) tetradecylthiopropionic acid for 14 days
+32410680	nicotinamide adenine	feed	a control diet, or an intervention diet supplemented with 0.9% (w/w) tetradecylthiopropionic acid for 14 days
+32410680	NAD	feed	a control diet, or an intervention diet supplemented with 0.9% (w/w) tetradecylthiopropionic acid for 14 days
+32410680	tetradecylthiopropionic acid	induce	fatty liver accompanied by decreased mitochondrial fatty acid oxidation
+32410680	NAD Fatty liver	decrease	the levels of kynurenine metabolites
+32410680	tetradecylthiopropionic acid	decrease	the levels of kynurenine metabolites
+32410680	NAD	decrease	the levels of kynurenine metabolites
+32410680	NAD Fatty liver	increase	the plasma levels of NAD
+32410680	tetradecylthiopropionic acid	increase	the plasma levels of NAD
+32410680	NAD	increase	the plasma levels of NAD
+32493774	rapeseed	cause	hepatic steatosis in animals
+32493774	erucic acid	cause	hepatic steatosis in animals
+32493774	Mitochondrial fatty acid	play	a central role
+32493774	fatty acid	play	a central role
+32493774	erucic acid	decrease	mitochondrial fatty acid oxidation
+32493774	peroxisomal	stimulate	malonyl-CoA formation in the liver
+32493774	erucic acid	stimulate	malonyl-CoA formation in the liver
+32493774	peroxisomal	suppress	mitochondrial fatty acid oxidation
+32493774	erucic acid	suppress	mitochondrial fatty acid oxidation
+32585865	DZA	increase	hepatocellular triglyceride accumulation, which was also evident by morphological visualization of larger-sized LDs
+32585865	triglycerides	accompany	increases in mRNA and protein levels of several LD-associated proteins known to regulate LD number and size
+32585865	LDs	accompany	increases in mRNA and protein levels of several LD-associated proteins known to regulate LD number and size
+32585865	DZA	cause	a decline in the levels of lipases that prevent fat accumulation as well as
+32585865	DZA	prevent	fat accumulation as well as
+32585865	DZA	increase	the expression of factors involved in lipogenesis and fatty acid mobilization
+32585865	intracellular SAH	promote	fat accumulation in hepatocytes, which is similar to that seen after alcohol exposure
+32593710	Bisphenol	impair	glucose and lipid metabolism
+32593710	endocrine	modulate	these processes
+32593710	endocrine	increase	the risk for metabolic diseases
+32593710	BPA	cause	mild steatosis in OVX CBPA females
+32593710	BPA	increase	the hepatic total lipids and mRNAs for Srebf1, Scd1, Hspa5, Hyou1 and Atf6
+32593710	BPA	aggravate	hepatic steatosis in OVX mice
+32593710	BPA	cause	NAFLD progression, which was partly mediated by chronic ER stress and the TGF-β1 pathway
+32623605	VPA	cause	liver toxicity and steatosis through mitochondrial dysfunction
+32623605	VPA	affect	oxygen consumption rates (OCRs)
+32623605	VPA	cause	mitochondrial dysfunction
+32623605	TFs	rescue	VPA-induced mitochondrial dysfunction
+32623605	PHHs	identify	24 genuine C/EBPα target genes that are regulated in response to prolonged VPA exposure in PHHs
+32687983	MC-LR	impact	liver health
+33007364	VPA	cause	steatosis
+33022571	Phe	have	severe effects
+33022571	Phenanthrene	have	severe effects
+33022571	polycyclic aromatic hydrocarbons	have	severe effects
+33022571	chemicals	disturb	intestinal microbiota, which plays a vital role in lipids metabolism
+33022571	chemicals	play	a vital role
+33022571	Phe	disrupt	the intestinal microbiota
+33022571	Phe	induce	significant alteration in relative Bacteroidetes, Firmicutes and Proteobacteria abundance in male mice
+33022571	Phe	alter	the composition of gastrointestinal bacteria
+33022571	Phe	induce	hepatic lipid metabolism disorder
+33105604	insulin receptor	induce	glucose intolerance, hepatic steatosis, and lipoatrophy in mice
+33105604	IGF-1 receptor	induce	glucose intolerance, hepatic steatosis, and lipoatrophy in mice
+33105604	IGF1R	induce	glucose intolerance, hepatic steatosis, and lipoatrophy in mice
+33105604	OSI-906	induce	glucose intolerance, hepatic steatosis, and lipoatrophy in mice
+33105604	IR/IGF1R	induce	glucose intolerance, hepatic steatosis, and lipoatrophy in mice
+33105604	Linagliptin	improve	OSI-906-induced hepatic steatosis
+33105604	Linagliptin	alter	glucose levels
+33105604	Linagliptin	alter	free fatty acid levels, gluconeogenic gene expressions in the liver, or visceral fat atrophy
+33105604	linagliptin	improve	hepatic steatosis induced by IR and IGF1R inhibition via a previously unknown mechanism that did not involve gluconeogenesis, lipogenesis, or inflammation
+33105604	IGF1R	involve	gluconeogenesis, lipogenesis, or inflammation
+33105604	linagliptin	suggest	the non-canonical actions of DPP-4 inhibitors in the treatment of hepatic steatosis under insulin-resistant conditions
+33184849	conjugated linoleic acid	induce	an enlarged liver, hepatic steatosis
+33184849	CLA	induce	an enlarged liver, hepatic steatosis
+33184849	GW6471	block	PPARα binding to Acaca and Acads
+33184849	PPARα	block	PPARα binding to Acaca and Acads
+33184849	GW6471	abolish	the PPARα-mediated local histone modifications of H3K27ac and H3K4me1 in CLA-treated hepatocytes
+33184849	PPARα	abolish	the PPARα-mediated local histone modifications of H3K27ac and H3K4me1 in CLA-treated hepatocytes
+33302084	glyphosate	raise	potential environmental threats and public health concerns
+33302084	GLY	raise	potential environmental threats and public health concerns
+33302084	pro-	clarify	their roles
+33302084	lipid	clarify	their roles
+33302084	samples	clarify	their roles
+33302084	Lipid	reduce	lipolysis-related gene expression levels, and resultant hepatic lipid accumulation
+33302084	GLY	induce	hepatotoxicity in fish
+33449950	O-1	stimulate	adipose triglyceride lipase (ATGL)
+33449950	FoxO1	stimulate	adipose triglyceride lipase (ATGL)
+33449950	O-1	suppress	its inhibitor G0/G1 switch gene 2 (G0S2) expression in the liver
+33449950	FoxO1	suppress	its inhibitor G0/G1 switch gene 2 (G0S2) expression in the liver
+33449950	Palmitate	promote	lipid accumulation
+33449950	Palmitate	inhibit	lipid decomposition in human HepG2 hepatoma cells
+33449950	Palmitate	reduce	FoxO1, ATGL and its activator comparative gene identification-58 (CGI-58) expression
+33449950	Palmitate	increase	peroxisome proliferator-activated receptorγ (PPARγ) and its target gene G0S2 expression
+33449950	FoxO1	increase	palmitate-inhibited ATGL and CGI-58 expression
+33449950	FoxO1	reduce	palmitate-stimulated PPARγ and its target gene G0S2 expression
+33449950	FoxO1	inhibit	lipid accumulation
+33449950	FoxO1	promote	lipolysis in palmitate-treated hepatocytes
+33449950	FoxO1-mediated	protect	hepatocytes
+33762794	body	demonstrate	the potential adverse effects of these substances, including its effect on the development of non-alcoholic fatty liver disease, as one of the most prevalent chronic liver diseases
+33762794	μmol/L	increase	the triglyceride level
+33900847	Uox-KO	develop	hyperuricemia and aberrant lipid-metabolism
+34128319	Rosiglitazone	exert	dual effects on liver steatosis
+34128319	Rosiglitazone	exacerbate	liver steatosis
+34128319	FABP4	alleviate	rosiglitazone-induced liver steatosis
+34128319	I-9	alleviate	rosiglitazone-induced liver steatosis
+34128319	FABP4 inhibitor I-9	alleviate	rosiglitazone-induced liver steatosis
+34128319	I-9	decrease	rosiglitazone-induced increase in serum FABP4 level
+34128319	FABP4	ameliorate	rosiglitazone-exacerbated elevated serum FABP4 level
+34128319	FABP4	ameliorate	ectopic liver fat accumulation in obese diabetic db/db mice
+34128319	I-9	ameliorate	rosiglitazone-exacerbated elevated serum FABP4 level
+34128319	I-9	ameliorate	ectopic liver fat accumulation in obese diabetic db/db mice
+34128319	FABP4 inhibitor I-9	ameliorate	rosiglitazone-exacerbated elevated serum FABP4 level
+34128319	FABP4 inhibitor I-9	ameliorate	ectopic liver fat accumulation in obese diabetic db/db mice
+34128319	FABP4	affect	its anti-diabetic efficacy
+34128319	I-9	affect	its anti-diabetic efficacy
+34128319	FABP4 inhibitor I-9	affect	its anti-diabetic efficacy
+34206460	clozapine	affect	weight,
+34206460	chromium	feed	a high fat diet (HFD)
+34206460	fatty liver	feed	a high fat diet (HFD)
+34206460	glucose	feed	a high fat diet (HFD)
+34206460	clozapine	gain	more weight
+34206460	clozapine	gain	higher daily food efficiency; higher serum or hepatic triglyceride, aspartate aminotransferase, alanine aminotransferase, blood urea nitrogen, and creatinine levels; and higher hepatic lipid regulation marker expression
+34206460	clozapine	exhibit	insulin resistance, poorer insulin sensitivity, greater glucose intolerance, and less Akt phosphorylation
+34206460	clozapine	reduce	the thickness of retinal cell layers
+34246650	Acetaminophen	aggravate	lipid deposition in the liver
+34246650	APAP	aggravate	lipid deposition in the liver
+34246650	Acetaminophen	cause	liver injury
+34246650	APAP	cause	liver injury
+34246650	CAV-1 stent-like domain	upregulate	CAV-1 expression
+34246650	CSD	upregulate	CAV-1 expression
+34246650	caveolin-1	upregulate	CAV-1 expression
+34246650	CAV-1	interfere	RNA and
+34246650	CAV-1	co-treate	L02 cells
+34246650	CAV-1	reduce	lipid accumulation in L02 cells
+34246650	CAV-1	activate	Pink-1/Parkin-related mitophagy
+34267188	ethanol-fed	develop	severe hepatic steatosis and inflammation
+34267188	Torin 1	suppress	mTORC1 activity
+34267188	Torin	suppress	mTORC1 activity
+34267188	Torin 1	ameliorate	ethanol-induced hepatic steatosis and inflammation in both control and Depdc5-LKO mice
+34267188	Torin	ameliorate	ethanol-induced hepatic steatosis and inflammation in both control and Depdc5-LKO mice
+34267188	fenofibrate	reverse	ethanol-induced liver steatosis and inflammation in Depdc5-LKO mice
+34267188	PPARα	reverse	ethanol-induced liver steatosis and inflammation in Depdc5-LKO mice
+34344994	2,3,7,8-Tetrachlorodibenzo-p-dioxin	induce	steatosis
+34344994	TCDD	induce	steatosis
+34344994	2,3,7,8-Tetrachlorodibenzo-p-dioxin	increase	hepatic uptake of dietary and mobilized peripheral fats
+34344994	TCDD	increase	hepatic uptake of dietary and mobilized peripheral fats
+34344994	2,3,7,8-Tetrachlorodibenzo-p-dioxin	inhibit	lipoprotein export
+34344994	TCDD	inhibit	lipoprotein export
+34344994	2,3,7,8-Tetrachlorodibenzo-p-dioxin	repress	β-oxidation
+34344994	TCDD	repress	β-oxidation
+34344994	TCDD	repress	straight-chain fatty acid oxidation gene expression in mice
+34344994	fatty acid	inhibit	the activity of short chain enoyl-CoA hydratase (ECHS1)
+34681291	TEB	cause	liver toxicity
+34681291	cellular lipid	cause	liver toxicity
+34681291	cells	show	lipid accumulation
+34681291	HepG2 cells	show	lipid accumulation
+34681291	TEB	increase	the nuclear translocation of peroxisome proliferator-activated receptors and the expression of lipid uptake and oxidation-related markers such as cluster of differentiation 36, fatty acid transport protein (FATP) 2, FATP5, and carnitine palmitoyltransferase 1
+34681291	20-80	increase	the nuclear translocation of peroxisome proliferator-activated receptors and the expression of lipid uptake and oxidation-related markers such as cluster of differentiation 36, fatty acid transport protein (FATP) 2, FATP5, and carnitine palmitoyltransferase 1
+34681291	20-80	induce	the loss of mitochondrial membrane potential and lower levels of microsomal triglyceride transfer protein in the cells
+34681291	TEB	induce	lipid accumulation
+34681291	TEB	alter	the expression of lipid-metabolizing molecules
+34681291	TEB	impair	lipid metabolism
+34685712	Cell	define	the causal role
+34685712	Cell	underlie	mechanism of FFA-activated mTORC1 signaling in hepatocellular cell injury
+34685712	palmitic acid	(pa)-induce	ER stress and suppression of LAMP2 and autophagy flux
+34685712	rapamycin	reverse	such deleterious effects
+34685712	ATF4	modulate	LAMP2
+34685712	rapamycin	attenuate	mTORC1 activation and ER stress,
+34685712	rapamycin	restore	LAMP2 protein
+34685712	rapamycin	improve	autophagy
+34685712	hepatic FFAs	play	a crucial role
+34685712	FFAs	play	a crucial role
+34685712	FFAs	represent	an important mechanism of FFA-induced hepatocellular injury
+34685712	hepatic FFAs	activate	mTORC1 signaling
+34685712	FFAs	activate	mTORC1 signaling
+34801933	HepG2	enhance	lipid transport to the cell
+34801933	dexamethasone	enhance	lipid transport to the cell
+34801933	palmitate	enhance	lipid transport to the cell
+34801933	Dexamethasone	alter	FA composition resulting in the elevated n-3 polyunsaturated fatty acid (PUFA) activity in DAG and TAG
+34801933	palmitate	alter	FA composition resulting in the elevated n-3 polyunsaturated fatty acid (PUFA) activity in DAG and TAG
+34801933	lipid	exacerbate	lipotoxicity in HepG2 cells
+34801933	FA	exacerbate	lipotoxicity in HepG2 cells
+34801933	dexamethasone	exacerbate	lipotoxicity in HepG2 cells
+34836271	GEN	inhibit	hepatic triglyceride accretion triggered by estrogen deficiency
+34836271	Genistein	inhibit	hepatic triglyceride accretion triggered by estrogen deficiency
+34836271	GEN	downregulate	the levels of genes and proteins involved in lipogenesis, such as sterol-regulatory element-binding protein-1c (SREBP-1c), fatty acid synthase (FASN), and stearoyl-coenzyme A desaturase 1 (SCD1)
+34836271	GEN	upregulate	the gene and protein levels of the regulation factors responsible for fatty acid β-oxidation, such as carnitine palmitoyltransferase 1α (CPT-1α) and peroxisome proliferator-activated receptor α (PPARα)
+34836271	GEN	improve	hepatic lipid metabolism
+34836271	GEN	activate	ERβ and further modulation of Akt/mTOR signals
+34856412	farnesoid X receptor	regulate	fatty acid β-oxidation (FAO)
+34856412	FXR	regulate	fatty acid β-oxidation (FAO)
+34856412	farnesoid X receptor	maintain	bile acid, cholesterol and glucose homeostasis,
+34856412	FXR	maintain	bile acid, cholesterol and glucose homeostasis,
+34856412	fatty acids	use	an integrated metabolomic and transcriptomic analysis in control
+34856412	FXR	use	an integrated metabolomic and transcriptomic analysis in control
+34897744	fluoxetine	increase	the risk of metabolic diseases such as non-alcoholic fatty liver disease
+34897744	Fluoxetine	increase	hepatic lipid accumulation
+34897744	fluoxetine	alter	the production of prostaglandins which have also been implicated in the development of non-alcoholic fatty liver disease
+34897744	Fluoxetine	increase	mRNA expression of prostaglandin biosynthetic enzymes (Ptgs1, Ptgs2, and Ptgds), PPAR gamma (Pparg), and PPAR gamma downstream targets involved in fatty acid uptake (Cd36, Fatp2, and Fatp5) as well as production of 15-deoxy-Δ
