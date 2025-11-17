@@ -32,6 +32,37 @@ PMID	chemical	trigger	target
 
 ---
 
+
+### chem_relations.tsv / chem_relations.csv
+
+This file contains the **results of the chemical relation extraction
+pipeline** applied to the pre-filtered set of PubMed articles on
+steatosis and related liver outcomes. Each row corresponds to one
+chemical–event relation found in an abstract.
+
+The data can be exported either as a tab‑separated file
+`chem_relations.tsv` or as a comma‑separated file `chem_relations.csv`.
+The two files contain exactly the same columns; only the delimiter
+differs.
+
+### Example rows
+
+```tsv
+PMID	chemical	trigger	target	context_sentence
+25736031	Fructose	induce	insulin resistance	Fructose diets have been shown to induce insulin resistance and to alter liver metabolism and gut barrier function, ultimately leading to non-alcoholic fatty liver disease.
+25736031	Citrulline	improve	insulin sensitivity	Citrulline, Glutamine and Arginine may improve insulin sensitivity and have beneficial effects on gut trophicity.
+```
+
+### Explanation of fields
+
+| Column           | Meaning |
+|:-----------------|:--------|
+| PMID             | PubMed identifier of the article where the relation was extracted. |
+| chemical         | Name of the chemical / stressor mentioned in the sentence (e.g., Fructose, ethanol, PFOS). |
+| trigger          | Normalized predicate describing the effect of the chemical (e.g., `induce`, `decrease`, `prevent`, or more complex phrases such as `plays an important role in`). |
+| target           | Biological effect, phenotype or key event that is affected by the chemical (e.g., `insulin resistance`, `liver fat accumulation`, `endotoxemia`). In cases where the verb is too generic (for example *plays an important role*), simple rule‑based post‑processing extends the phrase using the local sentence context to make the trigger–target pair more informative. |
+| context_sentence | Full sentence from the abstract where the relation was detected. This snippet provides the original textual evidence for the relation. Any tab or newline characters are removed so that the field is safe to use in TSV/CSV format. |
+
 ### entities_ner.csv
 
 This file contains the **results of the Named Entity Recognition (NER)
