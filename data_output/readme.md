@@ -49,7 +49,7 @@ Pathways (AOP), such as:
 ``` csv
 Paper,entity,type,char_start,char_end,context_sentence
 
-PMID_29173234.pdf,Mouse,SPECIES,496,501,"- **Species:** Mouse - **Species Snippet:** Male Balb/c mice fed with diets containing α-lactalbumin developed abdominal adiposity, insulin resistance, and moderate liver steatosis, with increased hepatic lipid content."
+PMID_29173234.pdf,SPECIES,496,501,"- **Species:** Homo Sapiens - **Species Snippet:** SIRT1 disruption in human fetal hepatocytes elevates intracellular glucose and lipids via increased lipogenesis/gluconeogenesis and reduced AKT/FOXO1 signaling."
 ```
 
 ## Explanation of fields
@@ -57,9 +57,9 @@ PMID_29173234.pdf,Mouse,SPECIES,496,501,"- **Species:** Mouse - **Species Snippe
 | Column | Meaning |
 |:---|:---|
 | Paper | `PMID_29173234.pdf` → the source document (PDF). |
-| entity | `Fluoxetine` → the detected mention in text. |
+| entity | ` SIRT1 disruption ` → the detected mention in text. |
 | type | `Chemicals` → NER label from the `en_ner_bionlp13cg_md` model. |
 | char_start | `496` → character offset where the entity begins. |
 | char_end | `501` → character offset where it ends. |
-| context_sentence | The full sentence containing the mention of the mouse, including context describing what happened to it (adiposity, insulin resistance, steatosis). |
+| context_sentence | The full sentence containing the mention of the homo sapiens  including context describing what happened to it (adiposity, insulin resistance, steatosis). |
 
