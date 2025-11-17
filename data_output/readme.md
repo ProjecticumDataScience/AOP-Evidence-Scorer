@@ -57,8 +57,8 @@ PMID_29173234.pdf,Mouse,SPECIES,496,501,"- **Species:** Mouse - **Species Snippe
 | Column | Meaning |
 |:---|:---|
 | Paper | `PMID_29173234.pdf` → the source document (PDF). |
-| entity | `Mouse` → the detected mention in text. |
-| type | `SPECIES` → NER label from the `en_ner_bionlp13cg_md` model. |
+| entity | `Fluoxetine` → the detected mention in text. |
+| type | `Chemicals` → NER label from the `en_ner_bionlp13cg_md` model. |
 | char_start | `496` → character offset where the entity begins. |
 | char_end | `501` → character offset where it ends. |
 | context_sentence | The full sentence containing the mention of the mouse, including context describing what happened to it (adiposity, insulin resistance, steatosis). |
