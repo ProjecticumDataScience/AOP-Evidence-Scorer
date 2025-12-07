@@ -48,3 +48,25 @@ We put labeled data
   ```
   
   we expect the model to lean the correlation between E1 and E2 in the similar context
+
+
+## logistic_regession_stressor.py :  logistic regression to classify  stressor  from given chemical/drug/diet
+
+This script trains a text classifier to predict a chemical’s stressor category, then applies it to another CSV and saves the results. 
+
+Loads data_input/ker_dataset_table_s2.json, keeps Chemical and Stressor, and uses Chemical as input X and Stressor as target y. 
+
+Builds a scikit-learn Pipeline:
+
+TfidfVectorizer(analyzer="char_wb", ngram_range=(3,6), ...) converts each chemical name into TF-IDF features based on character n-grams (3–6 chars).
+
+LogisticRegression(max_iter=2000, class_weight="balanced") learns to map those features to the stressor labels. 
+
+Fits the model on the full JSON dataset. 
+
+Reads data_input/chem_relations.csv, predicts a new column stressor_pred from its chemical column (filling missing values with empty strings). 
+
+Writes the enriched file to data_output/chem_relations_with_stressor.csv and prints the first 10 rows of PMID, chemical, and stressor_pred.
+
+
+
